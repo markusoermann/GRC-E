@@ -1,0 +1,241 @@
+---
+title: "Die KI-Verordnung"
+subtitle: "Risikobasierte Regeln für künstliche Intelligenz"
+date: last-modified
+lang: de
+
+# Autoren-Daten
+author:
+  - name: Prof. Dr. Markus Oermann
+    email: markus.oermann@thws.de
+    role: Dozent
+    affiliation: THWS FIW
+
+# Semester-Daten
+semester: "WS 26/27"
+course: "Governance, Risk, Compliance & Ethics – Teil 2"
+version: "1.0"
+
+# --- Ausgabe-Formate ---
+format: moodle-html
+---
+
+In der vorigen Einheit haben wir das Informationssicherheitsrecht entlang seiner zentralen Rechtsquellen kennengelernt: die Resilienz kritischer Einrichtungen (CER-Richtlinie und KRITIS-Dachgesetz), die Cybersicherheit nach NIS2-Richtlinie und BSI-Gesetz sowie die strafrechtliche Flanke der [§§ 202a ff. StGB](https://www.gesetze-im-internet.de/stgb/__202a.html){target="_blank"}. Diese Regelwerke schützen die Verfügbarkeit, Integrität und Vertraulichkeit von Systemen – sie fragen aber nicht danach, *was* ein System inhaltlich tut. Genau hier setzt die KI-Verordnung an: Sie reguliert nicht die Infrastruktur, sondern eine Technologie und ihre Anwendungen, und sie tut dies mit Blick auf Sicherheit, Gesundheit und Grundrechte. Damit schließt sie das rechtliche Fundament dieses Kurses ab.
+
+## Hintergrund und Entstehungsgeschichte
+
+### Ein Rechtsrahmen für vertrauenswürdige KI
+
+Die KI-Verordnung (KI-VO) ist Teil eines größeren Pakets der EU-Kommission zur Unterstützung *vertrauenswürdiger* künstlicher Intelligenz. Neben der Verordnung selbst gehören dazu das KI-Innovationspaket für KMU und Start-ups sowie der Koordinierte Plan für KI. Die Kommission bewirbt die KI-VO selbstbewusst als den **ersten umfassenden Rechtsrahmen für KI weltweit**. Diese Vorreiterrolle ist Programm: Die EU möchte global Standards setzen.
+
+Wichtig ist eine doppelte Abgrenzung. Die KI-VO enthält **keine** Regelungen zur zivilrechtlichen Haftung für die Ergebnisse von KI und auch keine substanziellen immaterialgüterrechtlichen Vorgaben. Sie ist Produktsicherheits- und Grundrechtsschutzrecht, kein Haftungsrecht. Wer durch eine KI geschädigt wird, findet seine Ansprüche also nicht hier, sondern – wie wir am Ende sehen – im allgemeinen und im spezielleren Haftungsrecht.
+
+### Vom Vorschlag zur geltenden Verordnung
+
+Die Entstehung zog sich über mehr als drei Jahre. Am **21. April 2021** legte die Kommission den Vorschlag vor; das Vorhaben galt als eines der wichtigsten Regulierungsprojekte der Amtszeit 2019–2024. Es folgten die Berichtsentwürfe der federführenden Ausschüsse IMCO und LIBE des Europäischen Parlaments (2022), die „Allgemeine Ausrichtung" des Rates (Dezember 2022) und die Annahme im Parlament (Juni 2023). Im **Dezember 2023** erzielten Kommission, Rat und Parlament in den Trilogverhandlungen den politischen Konsens. Nach der Verabschiedung in Parlament (März 2024) und Rat (Mai 2024) erfolgte am **12. Juli 2024** die Veröffentlichung im Amtsblatt. **In Kraft getreten** ist die KI-VO am **1. August 2024 als Verordnung (EU) 2024/1689**.
+
+::: {.flip-card}
+#### Brüssel-Effekt
+Weil global agierende Anbieter ihre Produkte nicht je Markt anders bauen, übernehmen sie EU-Standards oft weltweit. So strahlt EU-Recht faktisch über die Unionsgrenzen hinaus aus.
+:::
+
+## Anwendungsbereich und Definitionen
+
+### Räumlich: ein breites Marktortprinzip
+
+Der räumliche Anwendungsbereich ist bewusst weit gezogen ([Art. 2 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Die Verordnung gilt für **alle Anbieter, Betreiber, Hersteller, Importeure und Händler**, die KI-Modelle, KI-Systeme oder KI-basierte Dienste in der Union in Verkehr bringen oder in ihre Produkte integrieren – und zwar **unabhängig von ihrem Standort und vom Standort der Server**. Maßgeblich ist also nicht, wo das Unternehmen sitzt, sondern wo das Ergebnis auf den Markt trifft (Marktortprinzip). Erklärtes Ziel ist der **Brüssel-Effekt**, die globale Ausstrahlungswirkung des EU-Rechts. Das erzeugt eine Spannungslage insbesondere im Verhältnis zu den USA, deren Regulierungsphilosophie deutlich zurückhaltender ist.
+
+### Sachliche Begrenzungen
+
+So weit der räumliche Zugriff ist, so klar sind die sachlichen Ausnahmen ([Art. 2 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Ausgenommen sind KI für **militärische, Verteidigungs- oder nationale Sicherheitszwecke** (Abs. 3), KI der Sicherheitsbehörden von Drittstaaten (Abs. 4), KI ausschließlich für **wissenschaftliche Zwecke** (Abs. 6) sowie reine Forschungs-, Test- und Entwicklungstätigkeiten vor dem Inverkehrbringen (Abs. 8). Ebenfalls außen vor bleibt der Betrieb von KI im Rahmen **persönlicher, nicht-beruflicher Tätigkeiten** (Abs. 10) – die Verordnung adressiert also nicht den privaten Endnutzer. Open-Source-KI ist privilegiert, allerdings nicht, soweit es um verbotene, Hochrisiko- oder generative Systeme geht (Abs. 12).
+
+::: {.drag-exercise}
+Das *Marktortprinzip* knüpft an den Ort der Marktwirkung an, nicht an den Sitz des Anbieters; eine rein *persönliche, nicht-berufliche* Nutzung fällt dagegen aus dem Anwendungsbereich.
+:::
+
+### Was ist ein „KI-System"?
+
+Die Schlüsseldefinition steht in [Art. 3 Nr. 1 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}. Ein **KI-System** ist danach ein *maschinengestütztes System*, das für einen *in unterschiedlichem Grade autonomen Betrieb* ausgelegt ist, nach der Betriebsaufnahme *anpassungsfähig* sein kann und aus den erhaltenen Eingaben für *explizite oder implizite Ziele* ableitet, wie es Ausgaben – Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen – erzeugt, die physische oder virtuelle Umgebungen beeinflussen. Drei Merkmale tragen die Definition: **Autonomiegrad**, **Anpassungsfähigkeit** und die **Ableitung von Ausgaben** aus Eingaben. Klassische, deterministisch programmierte Software fällt damit gerade nicht ohne Weiteres unter den Begriff. Zur Auslegung hat das KI-Büro am 6. Februar 2025 Leitlinien veröffentlicht.
+
+## Der risikobasierte Ansatz
+
+Das Grundkonzept der KI-VO ist ebenso einfach wie wirkungsmächtig: Statt jede KI gleich zu behandeln, staffelt die Verordnung die Anforderungen nach dem **Risiko** für Sicherheit, Leben und Grundrechte. Daraus entsteht eine Pyramide aus vier Stufen.
+
+- **Inakzeptables Risiko** – die betreffenden Praktiken sind schlicht **verboten**.
+- **Hohes Risiko** – zulässig, aber nur unter umfangreichen **Risikomanagementpflichten**, bevor das System in Verkehr gebracht oder in Betrieb genommen werden darf.
+- **Begrenztes Risiko** – im Wesentlichen **Transparenzpflichten** (z. B. für Chatbots und generative Systeme).
+- **Minimales Risiko** – **keine besonderen Vorgaben**; freiwillige Verhaltenskodizes sind möglich.
+
+Je höher das Risiko, desto dichter die Pflichten – die ganz große Masse alltäglicher KI bleibt unreguliert. Erproben Sie diese Logik im folgenden Widget, indem Sie konkrete Anwendungsfälle einsortieren:
+
+::: {.widget}
+<iframe src="widgets/kapitel-06/widget-ki-risiko-klassifikator.html" width="100%" height="560px" frameborder="0" title="KI-Risiko-Klassifikator nach der KI-VO"></iframe>
+:::
+
+## Verbotene Praktiken ([Art. 5 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+An der Spitze der Pyramide stehen die – etwas plakativ so genannten – „Todsünden". [Art. 5 Abs. 1 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} verbietet KI-Praktiken, die als Bedrohung für Sicherheit, Leben und Grundrechte gelten. Dazu zählen insbesondere:
+
+- **manipulative KI**, die durch unterschwellige Techniken einen erheblichen Schaden verursacht (lit. a);
+- KI, die **Vulnerabilitäten** – etwa wegen Alter, Behinderung oder wirtschaftlicher Lage – zur Verhaltensbeeinflussung ausnutzt (lit. b);
+- umfassendes **Social Scoring** (lit. c);
+- **Predictive Policing**, das allein auf personenbezogene Profile gestützt Straftaten vorhersagt (lit. d);
+- **Emotionserkennung** am Arbeitsplatz und in Bildungseinrichtungen (lit. f);
+- bestimmte Formen **biometrischer Kategorisierung** sowie das **ungezielte Scraping** von Gesichtsbildern zum Aufbau von Datenbanken.
+
+Zur Auslegung dieser Verbote hat das KI-Büro Leitlinien vom 4. Februar 2025 vorgelegt.
+
+### Spezialfall: biometrische Echtzeit-Fernidentifizierung
+
+Der heikelste Punkt war die **biometrische Live-Gesichtserkennung zur Strafverfolgung**. Hier prallten die Positionen frontal aufeinander: Das Parlament wollte ein generelles Verbot, der Rat war dagegen. Das Ergebnis ist ein **Kompromiss** ([Art. 5 Abs. 1 lit. h, Abs. 2–5 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Die **Echtzeit-Fernidentifizierung in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken ist grundsätzlich verboten**, aber unter Genehmigungsvorbehalt in engen Ausnahmen zulässig: zur Suche nach einer vermissten Person, zur Abwehr einer konkreten und unmittelbaren terroristischen Bedrohung sowie zur Verfolgung von Tätern oder Verdächtigen schwerer Straftaten. Außerhalb dieser Ausnahmen werden biometrische Fernerkennungssysteme als hochriskant eingestuft und entsprechend streng reguliert.
+
+::: {.quick-check}
+Eine Schulsoftware soll während des Unterrichts die Emotionen der Lernenden auswerten, um die „Aufmerksamkeit" zu messen. Wie ist das nach der KI-VO einzuordnen?
+
+- Hochrisiko-KI mit Konformitätsbewertung
+- **Verbotene Praktik (Emotionserkennung in Bildungseinrichtungen)**
+- Begrenztes Risiko mit Transparenzpflicht
+- Minimales Risiko ohne besondere Vorgaben
+:::
+
+## Hochrisiko-KI ([Art. 6 ff. KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Unterhalb der Verbotsschwelle liegt das eigentliche Herzstück der Verordnung. Die Regelungen zu Hochrisiko-KI haben ihre Wurzeln im **Produktsicherheitsrecht** und übertragen dessen Logik auf KI.
+
+### Zwei Wege in die Hochrisiko-Klasse
+
+[Art. 6 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} kennt zwei Tore. Nach **Absatz 1** ist ein System hochriskant, wenn es als **Sicherheitsbauteil** in einem Produkt eingesetzt wird, das ohnehin dem EU-Sicherheitsrecht unterliegt und eine **Konformitätsbewertung durch Dritte** erfordert (Anhang I, z. B. Verkehrsmittel, Aufzüge, Spielzeug, Medizinprodukte). Nach **Absatz 2** ist es hochriskant, wenn sein Verwendungszweck in **Anhang III** gelistet ist und es nach einer Einzelfallbewertung Risiken für Gesundheit, Sicherheit oder Grundrechte birgt. Anhang III nennt unter anderem kritische Infrastrukturen, Bildung (etwa Prüfungsbewertung), Beschäftigung (etwa **Lebenslauf-Sortierung** im Recruiting), wesentliche Dienstleistungen (etwa **Kreditwürdigkeitsprüfung**), Strafverfolgung, Migration sowie Rechtspflege und demokratische Prozesse.
+
+### Das Korrektiv des [Art. 6 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}
+
+Damit nicht jede triviale Anwendung in einem Anhang-III-Feld zur Hochrisiko-KI wird, enthält **[Art. 6 Abs. 3 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}** ein Korrektiv: Ein gelistetes System ist *nicht* hochriskant, wenn es **kein erhebliches Risiko** für Gesundheit, Sicherheit oder Grundrechte birgt – insbesondere, weil es **das Ergebnis der Entscheidungsfindung nicht wesentlich beeinflusst**. Ausgeschlossen sind also Systeme, die menschliche Entscheidungen nur *unterstützen*, sie aber nicht übernehmen oder maßgeblich prägen. Die Anbieter müssen ihre Bewertung jedoch **dokumentieren** und das System registrieren ([Art. 6 Abs. 4](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}); die Kommission soll dazu Leitlinien bereitstellen.
+
+### Anbieter und Betreiber
+
+Wer reguliert wird, hängt von der Rolle in der Wertschöpfungskette ab. Der **Anbieter** ist die Person, die ein KI-System oder -Modell entwickelt oder entwickeln lässt und in Verkehr bringt – vereinfacht der Hersteller. Der **Betreiber** verwendet das System in eigener Verantwortung (jenseits rein privater Nutzung). Der Anbieter bestimmt originär den Verwendungszweck und kann unerwünschte Verwendungen ausschließen. Entscheidend ist die **Umwidmungsregel** des [Art. 25 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}: Wer ein System unter eigenem Namen vertreibt, es wesentlich verändert oder durch tatsächliche Nutzung zu einem Hochrisiko-Zweck einsetzt, **tritt rechtlich an die Stelle des Anbieters** und übernimmt dessen Pflichten. Die Klärung der eigenen Rolle ist deshalb der erste Compliance-Schritt überhaupt.
+
+### Die Pflichten der Anbieter ([Art. 8–15 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Für Hochrisiko-Systeme gilt ein dichter Pflichtenkatalog, der den gesamten Lebenszyklus erfasst:
+
+- **Risikomanagementsystem** mit Risikoanalyse und Milderungsmaßnahmen vor und nach Markteinführung ([Art. 9](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **Daten-Governance**: Training nur mit qualifizierten, repräsentativen Datensätzen ([Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **technische Dokumentation** mit allen Informationen, die Behörden zur Prüfung benötigen ([Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **Protokollierung** der Systemaktivitäten zur Rückverfolgbarkeit ([Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **Transparenz** und klare Informationen für nachgelagerte Akteure – die „Bedienungsanleitung" ([Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **menschliche Aufsicht**, etwa durch eine Abschalteinrichtung ([Art. 14](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **Robustheit, Genauigkeit und Cybersicherheit** ([Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}).
+
+### Konformitätsbewertung und Pflichten nach Markteinführung
+
+Bevor ein Hochrisiko-System auf den Markt darf, durchläuft es die **Konformitätsbewertung** ([Art. 43–49 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}): Prüfung gegen die Anforderungen, Registrierung eigenständiger Anhang-III-Systeme in einer EU-Datenbank, Unterzeichnung einer Konformitätserklärung und schließlich die **CE-Kennzeichnung**. Bei wesentlichen Änderungen ist das Verfahren erneut zu durchlaufen. Nach der Markteinführung übernehmen die nationalen Marktüberwachungsbehörden die Aufsicht; **Betreiber** müssen die Verwendung nach Betriebsanleitung sicherstellen, Protokolle aufbewahren ([Art. 26 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}) und – als öffentliche Stellen sowie bestimmte private Betreiber von Anhang-III-Systemen – vor der Inbetriebnahme eine **Grundrechte-Folgenabschätzung** durchführen ([Art. 27 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). **Anbieter** richten eine Beobachtung ihrer Systeme ein; beide melden schwerwiegende Vorfälle an die Behörden.
+
+::: {.case-study}
+#### CV-Sortierung im Recruiting: hochriskant – oder doch nicht?
+Ein mittelständisches Unternehmen führt eine KI ein, die eingehende Bewerbungen automatisch bewertet und eine Rangliste der Kandidatinnen und Kandidaten erstellt. Die Personalabteilung lädt nur die ersten zehn zum Gespräch ein. Wie ist das System einzuordnen, und was folgt daraus?
+
+::: {.solution}
+Bewerbermanagement bei der Einstellung ist ein in **Anhang III** gelisteter Verwendungszweck (Beschäftigung). Das System ist damit **grundsätzlich Hochrisiko-KI** nach [Art. 6 Abs. 2 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}. Das Korrektiv des **[Art. 6 Abs. 3](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}** greift hier nicht, denn die KI beeinflusst das Ergebnis *wesentlich*: Wer nicht in den Top Ten landet, wird faktisch aussortiert – das ist mehr als bloße Unterstützung. Folge: Es gelten die Pflichten der [Art. 8–15](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} (u. a. Daten-Governance gegen Diskriminierung nach [Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}, menschliche Aufsicht nach [Art. 14](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}), die Konformitätsbewertung mit CE-Kennzeichnung sowie die Betreiberpflichten nach [Art. 26](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}. Das Unternehmen ist hier zunächst Betreiber; würde es das System wesentlich verändern oder unter eigenem Namen vertreiben, würde es nach [Art. 25](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} zum Anbieter und müsste dessen volle Pflichten tragen.
+:::
+:::
+
+## Begrenztes Risiko: Transparenzpflichten ([Art. 50 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Eine Stufe tiefer reguliert die KI-VO nicht das *Ob*, sondern nur das *Offenlegen*. [Art. 50 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} verlangt **Transparenz**, wo Menschen sonst über die Natur einer Interaktion oder eines Inhalts getäuscht werden könnten. Anbieter eines Systems, das mit Menschen **interagiert** (etwa ein Chatbot), müssen offenlegen, dass es sich um eine KI handelt (Abs. 1). Wer **synthetische Inhalte generiert**, muss diese maschinenlesbar kennzeichnen – „**Watermarking**" (Abs. 2). Betreiber von Systemen zur **Emotionserkennung oder biometrischen Kategorisierung** informieren die Betroffenen (Abs. 3). Und wer **Deepfakes** oder Texte von öffentlichem Interesse erzeugt, muss sie als künstlich erzeugt **kennzeichnen** – „Labeling" (Abs. 4). Die Inhalte selbst bleiben erlaubt; reguliert wird allein die Erkennbarkeit.
+
+## General Purpose AI und KI-Kompetenz
+
+### GPAI-Modelle ([Art. 53–55 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Große Sprach- und Basismodelle passen schlecht in das anwendungsbezogene Risikoraster, weil ihre Verwendungszwecke offen sind. Die KI-VO adressiert sie deshalb gesondert als **KI-Modelle mit allgemeinem Verwendungszweck** (General Purpose AI, GPAI). Nach [Art. 3 Nr. 63 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} ist ein GPAI-Modell ein Modell, das – oft durch Training mit großen Datenmengen unter umfassender Selbstüberwachung – eine erhebliche **allgemeine Verwendbarkeit** aufweist, ein **breites Spektrum** unterschiedlicher Aufgaben kompetent erfüllt und in viele nachgelagerte Systeme integriert werden kann. Anbieter solcher Modelle müssen technische Dokumentation mit Fokus auf Trainingsverfahren und -daten bereitstellen, nachgelagerte Akteure informieren ([Art. 53](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}); in Drittstaaten ansässige Anbieter müssen zudem einen bevollmächtigten Vertreter in der EU benennen ([Art. 54](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}).
+
+Verschärfte Pflichten treffen GPAI-Modelle mit **systemischem Risiko** ([Art. 55 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}): eigene Risikoanalyse und Minderungsmaßnahmen, Modellevaluation, Meldung schwerwiegender Vorfälle und Cybersicherheitsvorkehrungen. Das systemische Risiko wird grundsätzlich am **Rechenaufwand für das Training** festgemacht – derzeit bei mehr als 10²⁵ FLOP ([Art. 51 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}), ergänzt um weitere Kriterien.
+
+### KI-Kompetenz ([Art. 4 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Quer zu allen Risikostufen steht eine Pflicht, die jeden Einsatz betrifft. Nach **[Art. 4 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}** müssen Anbieter *und* Betreiber sicherstellen, dass ihr Personal und beauftragte Personen über ausreichende **KI-Kompetenz** verfügen: Fähigkeiten, Kenntnisse und ein Verständnis für den sachkundigen Einsatz von KI sowie ein Bewusstsein für Chancen, Risiken und mögliche Schäden ([Art. 3 Nr. 56](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Dabei sind technische Vorkenntnisse, Erfahrung, Ausbildung und Einsatzkontext zu berücksichtigen. Diese Pflicht gilt bereits **seit dem 2. Februar 2025** – und sie betrifft praktisch jede Organisation, die KI nutzt.
+
+::: {.flip-card}
+#### GPAI vs. Hochrisiko-KI
+Hochrisiko-Pflichten knüpfen an einen konkreten, riskanten *Verwendungszweck* an; GPAI-Pflichten knüpfen an das *Modell* selbst an, dessen Zwecke offen sind.
+:::
+
+## Governance und Zeitleiste
+
+### Wer wacht über die KI-VO?
+
+Die Durchsetzung ruht auf einem **mehrstufigen Governance-Gefüge** (vgl. Novelli et al. 2024). Auf supranationaler Ebene steht das bei der Kommission angesiedelte **KI-Büro (AI Office, DG CNECT)**, das insbesondere die GPAI-Anbieter beaufsichtigt; flankiert wird es vom **KI-Ausschuss (AI Board)**, einem beratenden **Forum** und einem **wissenschaftlichen Gremium (Scientific Panel)**. Auf nationaler Ebene benennen die Mitgliedstaaten **Notifizierungs-** und **Marktüberwachungsbehörden**; die Konformität prüfen unabhängige **notifizierte Stellen**.
+
+![Governancestruktur der KI-VO (vereinfacht): Kommission/KI-Büro, KI-Ausschuss und wissenschaftliche Gremien auf supranationaler Ebene, Notifizierungs- und Marktüberwachungsbehörden sowie notifizierte Stellen auf nationaler Ebene. Nach Novelli et al. (2024, S. 24).](slides/img/ki-vo-governance-novelli.png)
+
+### Die gestaffelte Anwendbarkeit ([Art. 113 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Die KI-VO gilt nicht auf einen Schlag, sondern in Etappen ([Art. 113](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}):
+
+- **2. Februar 2025** – die **Verbote** (Kapitel I und II) sowie die KI-Kompetenz-Pflicht werden anwendbar;
+- **2. August 2025** – die Regeln zu **GPAI-Modellen**, zu den Behörden, zur **Governance** und zu den **Sanktionen**;
+- **2. August 2026** – **alle übrigen** Regelungen mit Ausnahme von [Art. 6 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"};
+- **2. August 2027** – die Regeln für **produktbezogene** Hochrisiko-Systeme ([Art. 6 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}).
+
+::: {.details}
+#### Vertiefung: Warum erst 2027 für [Art. 6 Abs. 1](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}?
+Die produktbezogenen Hochrisiko-Systeme (Tor 1) bekommen die längste Schonfrist, weil sie in bestehende Konformitätsverfahren des sektoralen Produktsicherheitsrechts (Anhang I, z. B. Maschinen, Medizinprodukte) eingebettet werden müssen. Diese Verzahnung mit etablierten Prüfregimes und notifizierten Stellen braucht mehr Vorlauf als die eigenständigen Anhang-III-Anwendungsfälle (Tor 2), die bereits ab dem 2. August 2026 erfasst sind.
+:::
+
+## Individualrechte, Sanktionen und Haftungsausblick
+
+### Zwei Individualrechte
+
+Auf Drängen des Parlaments geht die KI-VO über das im Produktsicherheitsrecht Übliche hinaus und gewährt zwei **Individualrechte**. Das **Recht auf Beschwerde** bei einer Marktüberwachungsbehörde besteht bei Verdacht eines Verstoßes und setzt keine eigene Betroffenheit voraus ([Art. 85](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Das **Recht auf Erläuterung** steht Betroffenen zu, deren Entscheidungen unter Beteiligung eines Anhang-III-Hochrisiko-Systems ergehen ([Art. 86](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}).
+
+### Sanktionen ([Art. 99 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
+
+Die Mitgliedstaaten müssen wirksame Sanktionen vorsehen. Der Rahmen ist gestaffelt: Verstöße gegen die **verbotenen Praktiken** können mit bis zu **35 Mio. € oder 7 %** des weltweiten Jahresumsatzes geahndet werden; Verstöße gegen sonstige Pflichten (auch für GPAI) mit bis zu 15 Mio. € oder 3 %; fehlerhafte Auskünfte mit bis zu 7,5 Mio. € oder 1,5 % – jeweils der höhere Wert.
+
+### Haftungsausblick: PLD und AILD
+
+Was die KI-VO bewusst auslässt – die zivilrechtliche Haftung für KI-Schäden – sollte durch zwei flankierende Richtlinienvorschläge der Kommission vom 28. September 2022 geschlossen werden. Die **KI-Haftungsrichtlinie (AILD)** wollte die Beweisführung für Geschädigte erleichtern, unter anderem durch einen Anspruch auf Offenlegung der nach der KI-VO dokumentierten Informationen und eine widerlegbare Kausalitätsvermutung mit Beweislastumkehr. Dieser Vorschlag ist Anfang 2025 jedoch **gescheitert**. Verabschiedet wurde dagegen die **reformierte Produkthaftungsrichtlinie (EU) 2024/2853**: Sie erstreckt die verschuldensunabhängige Herstellerhaftung – die nicht an ein schuldhaftes Verhalten, sondern an die geschaffene Gefahrenquelle anknüpft – ausdrücklich auf Software und damit auf KI-Systeme. Sie ist bis zum 9. Dezember 2026 in deutsches Recht umzusetzen.
+
+::: {.case-study}
+#### Wenn die KI Schaden anrichtet
+Ein autonom navigierender Lagerroboter mit eingebauter KI verletzt eine Mitarbeiterin. Sie möchte Schadensersatz. Findet sie ihren Anspruch in der KI-VO?
+
+::: {.solution}
+Nein. Die KI-VO regelt Marktzugang, Risikomanagement und Aufsicht, aber **keine Haftungsansprüche** für KI-Schäden. Den Anspruch sucht die Geschädigte im Haftungsrecht: nach der reformierten **Produkthaftungsrichtlinie (EU) 2024/2853**, die als verschuldensunabhängige Haftung an die vom Hersteller geschaffene Gefahrenquelle anknüpft und nun auch Software erfasst, sowie im allgemeinen Deliktsrecht. Die ursprünglich vorgesehene **KI-Haftungsrichtlinie** mit ihren Beweiserleichterungen hätte ihr geholfen – sie ist aber Anfang 2025 gescheitert, sodass die beweisrechtliche Lage anspruchsvoll bleibt. Die KI-VO wirkt hier nur *mittelbar*: Verletzt der Hersteller ihre Pflichten, kann das die Fehlerhaftigkeit des Produkts und damit die Haftung begründen.
+:::
+:::
+
+::: {.details}
+#### Vertiefung: Der „AI Omnibus" 2025/26
+Bereits kurz nach Geltungsbeginn kündigte die Kommission Anpassungen an. Der sogenannte **AI Omnibus** zielt auf vereinfachte Dokumentationspflichten (auch für Mid-Caps), Klarstellungen zur Rechtsgrundlage für das Training mit personenbezogenen Daten, eine Stärkung des KI-Büros für eine einheitliche Aufsicht, kostenfreie **Reallabore** (Sandboxes) für innovative Systeme sowie eine Ausdehnung einzelner Umsetzungsfristen. Er zeigt: Die KI-VO ist kein abgeschlossenes Werk, sondern ein lernendes Regelwerk.
+:::
+
+::: {.quick-check}
+Welche Aussage zur Durchsetzung der KI-VO trifft zu?
+
+- Die KI-VO enthält einen eigenständigen Schadensersatzanspruch gegen KI-Anbieter.
+- **Verstöße gegen die verbotenen Praktiken können mit bis zu 35 Mio. € oder 7 % des Jahresumsatzes geahndet werden.**
+- Die biometrische Echtzeit-Fernidentifizierung ist ausnahmslos verboten.
+- GPAI-Modelle unterliegen denselben Pflichten wie Hochrisiko-Systeme.
+:::
+
+## Bogen zurück: von der Ethik zum Recht
+
+Damit schließt sich der Kreis dieses Kurses. In der ersten Einheit haben wir Sicherheit als ethischen **Wert** begründet, die Grenzen maschineller Verantwortung ausgelotet und mit Collingridge, Dignum und der IEEE-7000-Familie gefordert, ethische Anforderungen **von Anfang an** in den Entwicklungsprozess zu holen. Die KI-VO ist die rechtliche Antwort auf genau diese Forderung: Sie übersetzt abstrakte Prinzipien – Transparenz, menschliche Aufsicht, Rechenschaft, Schutz der Grundrechte – in durchsetzbare Pflichten über den gesamten Lebenszyklus eines Systems. Zwischen dem ethischen Anspruch der ersten und dem rechtlichen Rahmen dieser letzten Einheit liegt der eigentliche Gegenstand von Governance, Risk, Compliance & Ethics: aus Werten verbindliche, prüfbare und gelebte Praxis zu machen.
+
+## Quellen
+
+### Literatur
+
+- Novelli, C., Hacker, P., Morley, J., Trondal, J. & Floridi, L. (2024): *A Robust Governance for the AI Act: AI Office, AI Board, Scientific Panel, and National Authorities*. Digital Society.
+
+### Normen & Standards
+
+- Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (KI-Verordnung). <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689>
+- Richtlinie (EU) 2024/2853 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über die Haftung für fehlerhafte Produkte (Produkthaftungsrichtlinie). <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202402853>
+- Vorschlag für eine Richtlinie über die Anpassung der Vorschriften über außervertragliche zivilrechtliche Haftung an künstliche Intelligenz (KI-Haftungsrichtlinie, AILD), COM(2022) 496 final – Anfang 2025 zurückgezogen.
+- Leitlinien des KI-Büros zum Begriff des KI-Systems (6. Februar 2025) sowie zu den verbotenen Praktiken (4. Februar 2025).
+
+### Rechtsprechung
+
+- Bislang keine einschlägige höchstrichterliche Rechtsprechung zur KI-VO (Stand der Bearbeitung).

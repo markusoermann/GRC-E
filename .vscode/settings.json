@@ -1,0 +1,9 @@
+{
+  "markdown.marp.themes": [
+    "./slides/thws.css",
+    "./slides/thws-pr.css"
+  ],
+  "files.associations": {
+    "slides/*.md": "markdown"
+  }
+}

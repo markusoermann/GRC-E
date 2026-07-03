@@ -1,0 +1,68 @@
+# LE5 – Informationssicherheitsrecht (KRITIS, NIS2, StGB) – Folien 145–166
+
+
+## Folie 145
+Informationssicherheitsrecht und Compliance | Überblick über Rechtsquellen des Informationssicherheitsrechts | Resilienz kritischer Einrichtungen: CER- | Richtlinie und KRITIS-Dachgesetz | Cybersecurity | : NIS2-Richtlinie und BSI-Gesetz | Relevante Aspekte des Strafrechts | KI-Verordnung | 145 | Agenda
+
+## Folie 146
+1.1.1991 | – 	Das Gesetz über die Errichtung des Bundesamtes für Sicherheit in der Informationstechnik (BSI-Errichtungsgesetz) tritt in Kraft | --> Bundesoberbehörde, die dem Bundesinnenministerium untersteht | 2009 | – 	Erhebliche Erweiterung der Aufgaben des BSI und eigene Befugnisse | 2015 | – 	Erstes IT-Sicherheitsgesetz -> Vorgaben zur IT-Sicherheit von | Kritischen Infrastrukturen | in BSIG, daneben Vorgaben im Energiewirtschaftsgesetz, Atomgesetz, Telemediengesetz und dem Telekommunikationsgesetz | 2016 | – 	Erste Richtlinie(EU) 2016/1148 über Maßnahmen zur Gewährleistung eines hohen gemeinsamen Sicherheitsniveaus von Netz- und Informationssystemen in der Union | 2021 | – 	IT-Sicherheitsgesetz 2.0 | 146 | Geschichte des Informationssicherheitsrechts
+
+## Folie 147
+147 | Überblick über Rechtsquellen des Informationssicherheitsrechts - Kernbereich | CER-RL: | physische Sicherheit | NIS2–RL: | Cyber | Security | DORA-VO: Finanzsektor | KI-VO | Cyber-Resilienz-VO | EU: | KRITIS- | DachG | BSIG | (nach NIS2UmsG) | Bund: | für bestimmte Produkte
+
+## Folie 148
+148 | Überblick über Rechtsquellen des Informationssicherheitsrechts - Nebenaspekte | Verpflichtung zur | Einrichtung eines Überwachungssystems | zur | Erkennung fortbestandsgefährdender Entwicklung | (im Rahmen der Corporate | Governance | ), § 91 Abs. 2 AktG, § 43 Abs. 1 GmbH | Schutz von Geschäftsgeheimnissen | ( | GeschGehG | ) |  setzt berechtigtes Interesse an der Geheimhaltung voraus | Dokumentationspflichten | wie etwa zur Buchführung (§§ 238 Abs. 1, 257 HGB, 145-147 AO) | Wichtig: Allgemeines zivilrechtliches | Haftungsrecht des BGB | setzt | starken Anreiz | , IT-Sicherheit zu gewährleisten, da bei Verstoß gegen Sorgfaltspflichten Haftung (u.a. auf Schadensersatz) droht
+
+## Folie 149
+Informationssicherheitsrecht und Compliance | Überblick über Rechtsquellen des Informationssicherheitsrechts | Resilienz kritischer Einrichtungen: CER-Richtlinie und KRITIS-Dachgesetz | Cybersecurity | : NIS2-Richtlinie und BSI-Gesetz | Relevante Aspekte des Strafrechts | KI-Verordnung | 149 | Agenda
+
+## Folie 150
+150 | CER-RL/KRITIS Dachgesetz-Entwurf | Vorgezogene BT-Wahl 2025 hat Fahrplan durcheinander gebracht | : | Umsetzungsfrist schon seit 18.10.2024 verstrichen | , Vertragsverletzungsverfahren gegen DEU läuft. | Regierungsentwurf am 10.9.2025 beschlossen | -> jetzt im parlamentarischen Verfahren | Registrierung nach KRITIS | DachGE | für die Unternehmen | vss | . ab | 17.7.2026 verpflichtend | .
+
+## Folie 151
+151 | Ziel und Anwendungsbereich | Regelungsziel: Ausfallsicherheit kritischer Einrichtungen | (durch physischen/“analogen“ Schutz) | erhöhen | , um Verfügbarkeit kritischer Dienstleistungen abzusichern |  „All-Gefahrenansatz“ | Es werden | elf Sektoren | von essenziellen Dienstleistungen definiert, Annex CER-RL, vgl. § 4 Abs. 1 KRITIS | DachGE | : | Energie 	Transport 			Banken | Finanzmärkte	Gesundheit		Trinkwasser | Abwasser	Digitale Infrastruktur		Öffentliche Verwaltung | Raumfahrt	Ernährung |  Sektoren in DEU etwas abweichend definiert
+
+## Folie 152
+152 | Registrierungspflicht | Alle Unternehmen müssen identifiziert und registriert werden, die | in einem der Sektoren eine | essenzielle Dienstleistung erbringen | ihren | Geschäftsbetrieb und seine kritische Infrastruktur in Deutschland | haben | deren Ausfall | signifikante disruptive Effekte | hätte, Art. 6 CER-RL, §§ 2, 8 KRITIS | DachGE | Schwellenwert bei Versorgung von | in der Regel mehr als 500 Tsd. Personen | , | § 5 Abs. 2 KRITIS | DachGE | Unternehmen sollen sich grundsätzlich | selbst registrieren | , § 8 Abs. 1 KRITIS | DachGE
+
+## Folie 153
+153 | Risikoanalyse und Maßnahmen | Betreiber müssen innerhalb von neun Monaten nach Registrierung als | kritische Einrichtung | selbst eine | Risikoanalyse | durchführen, um Ausfallrisiken zu beurteilen |  | muss min. alle | vier Jahre wiederholt | werden, Art. 12 CER-RL, § 12 Abs. 1 KRITIS | DachGE | Verhältnismäßige TOMs auf Stand der Technik zur Gewährleistung ausreichender Robustheit und Resilienz sind vorzunehmen | , § 13 Abs. 1, 2 KRITIS | DachGE | Beispielmaßnahmen | zur Gewährleistung von Resilienz essenzieller Dienstleistungen u.a., Art. 13 CER-RL, § 13 Abs. 1, 3 KRITIS | DachGE | : | Notfallvorsorge | : Präventionsmaßnahmen gegen Vorfälle und Klimawandel | Physische Sicherheit | : Absicherung der Liegenschaften und Kritischen Infrastruktur mit physischen Schutzmaßnahmen, Überwachung, Detektion, Zutrittskontrolle | Krisenreaktion | : Risiko- und Krisen­management zur Bewältigung von Krisen, mit definierten Prozeduren, Protokollen und Alarmierung | Wiederherstellung | : Business Continuity Management (BCM) und Maßnahmen zur Wiederherstellung nach Vorfällen — inkl. alternative Lieferketten | Personal | : Sicherheitsmanagement und besondere personelle Sicherheit, Zutrittskontrolle, Sicherheits­überprüfung, einschließlich externem Personal und Dienstleistern | Schulungen und Übungen | regelmäßig | für das Personal
+
+## Folie 154
+154 | Resilienzplan | und Meldepflicht | Die Maßnahmen müssen in einem | Resilienz-Plan | zusammengefasst und dokumentiert werden, § 13 Abs. 4 KRITIS | DachGE | Betreiber und Branchenverbände können | branchenspezifische | Resilienz­standards | zur Umsetzung vorschlagen. Das BBK stellt (ggf. im Einvernehmen mit dem BSI) dann die Eignung auf Antrag fest, § 14 KRITIS | DachGE | Meldepflicht: | Betreiber müssen ihre nationalen Behörden unverzüglich (in max. 24h) über signifikante Störungen und Vorfälle in ihren kritischen Dienstleistungen unterrichten – inkl. betroffener Nutzer, Ausfalldauer und räumliche Ausbreitung, Art. 15 | CER-RL, § 18 KRITIS | DachGE
+
+## Folie 155
+155 | Durchsetzung | Direkte Verpflichtung und Haftung der Geschäftsleitung | , § 20 KRITIS | DachGE | Aufsichtsbehörden erhalten Befugnis für | Inspektionen, Audits | und | anschließende Anweisungen | und | Überwachung | von Maßnahmen. Für | Verstöße | gegen die Resilienz-Vorgaben sollen | angemessene Sanktionen | verhängt werden können, Art. 21, 22 CER-RL, vgl. §§ 16, 24KRITIS | DachGE | Betreiber mit besonderer europäischer Relevanz | , die mindestens | sechs oder mehr | EU-Mitglied­staaten | mit essenziellen Dienstleistungen versorgen, werden identifiziert, der EU-Kommission gemeldet und | besonders überwacht | , Art. 17, 18 CER-RL, § 9 KRITIS | DachGE
+
+## Folie 156
+Informationssicherheitsrecht und Compliance | Überblick über Rechtsquellen des Informationssicherheitsrechts | Resilienz kritischer Einrichtungen: CER- | Richtlinie und KRITIS-Dachgesetz | Cybersecurity | : NIS2-Richtlinie und BSI-Gesetz | Relevante Aspekte des Strafrechts | KI-Verordnung | 156 | Agenda
+
+## Folie 157
+157 | NIS2-RL/BSIG 2025 | Die Umsetzung der NIS 2-Richtlinie im BSIG sollte eigentlich | März 2025 | in Kraft treten, Wegen vorgezogener BT-Wahl: Erst | am 6. Dezember 2025 in Kraft | getreten. | Regelungsziel | der | Richtlinie zur Netzwerk- und Informationssicherheit 2022/2555 und der umsetzenden Novelle des BSI-Gesetzes ist die | Gewährleistung von Cybersicherheit | in der Fläche auf vergleichbarem Niveau in der ganzen EU | Daneben sind sektorspezifische Regelungen vorrangig: | für Telekommunikationsanbieter im Telekommunikationsgesetz | für Energieversorger im Energiewirtschaftsgesetz | für Finanzdienstleister in der DORA-VO | Erfasst werden zunächst | alle Betreiber kritischer Anlagen nach KRITIS | DachG | . | Aber die Pflichten nach dem BSIG gelten darüber hinaus auch für | viele weitere Unternehmen | !
+
+## Folie 158
+158 | Anwendungsbereich | Erfasst sein können | Unternehmen mit Waren oder Dienstleistungen in den Sektoren | : | Energie			Transport und Verkehr	Finanz/Versicherungswesen | Gesundheit		Wasser/Abwasser		IT/Telekommunikation | Weltraum | Lebensmittel		Post- und Kurierdienste | Abfallbewirtschaftung	Chemische Stoffe		Warenproduktion/Verarbeitung | Digitale Dienste		Forschung | vgl. Anlage 1 und 2 BSIG, in | kursive Sektoren | nur wichtige Einrichtungen vorgesehen
+
+## Folie 159
+159 | Anwendungsbereich | Erfasst sind in diesen Sektoren: | besonders wichtige Einrichtung |  | i.d.R. bei mehr als | 250 Mitarbeitern | oder mehr als | € 50 			Mio. Umsatz | und mehr als € 43 Mio. Jahresbilanzsumme, § 28 			Abs. 1 Nr. 4 BSIG | wichtige Einrichtung |  i.d.R. bei mehr als | 50 Mitarbeitern | und mehr als | € 10 Mio. 			Umsatz | und Bilanzsumme, § 28 Abs. 2 Nr. 3 BSIG | + alle Betreiber kritischer Anlagen nach KRITIS | DachG | --> sind stets besonders wichtige Einrichtungen | Das BSI hat eine | NIS2-Betroffenheitsprüfung | online gestellt! | Hauptverantwortliche | im Unternehmen sind die | Geschäftsführer | -> haften bei Verstößen und müssen regelmäßig an Schulungen teilnehmen, § 38 BSIG
+
+## Folie 160
+160 | Pflichten | Alle Einrichtungen | : | Registrierung | beim BSI, §§ 33, 34 BSIG | Risikomanagementmaßnahmen | zum Schutz ihrer IT-Systeme, IT-Komponenten und | IT-Prozesse entsprechend dem | Stand der Technik | unter Berücksichtigung des Risikos, der Größe der Einrichtung und der Kosten § 30 BSIG | Meldepflicht | bei Sicherheitsvorfällen an das BSI: Erstmeldung innerhalb von 24h, Detailmeldung innerhalb von 72h, Abschlussmeldung innerhalb eines Monats, § 32 BSIG | Unterrichtung von Kunden und Öffentlichkeit | bei erheblichen Sicherheitsvorfällen, §§ 35, 36 BSIG | Besonders wichtige Einrichtungen | zusätzlich: | Proaktiver Nachweis | der Risikomanagementmaßnahmen, § 39 BSIG | Kritik: Bundesverwaltung selbst muss keine Risikomanagementmaßnahmen vorsehen, | § 29 Abs. 2 BSIG
+
+## Folie 161
+161 | Mindestumfang | der | Risikomanagementmaßnahmen | mach | § 30 Abs. 2 BSIG | Konzept zur | Risikoanalyse | Konzept zur | Bewältigung von Sicherheitsvorfällen | Aufrechterhaltung des Betriebs | , wie Backup-Management und Wiederherstellung nach einem Notfall, und Krisenmanagement | Maßnahmen zur | Sicherheit der Lieferkette | Sicherheitsmaßnahmen bei Erwerb, Entwicklung und Wartung von IT, Komponenten und Prozessen | Konzepte und Verfahren zur | Bewertung der Wirksamkeit | von Risikomanagementmaßnahmen | grundlegende Verfahren im Bereich der | Cyberhygiene und Schulungen | Konzepte und Verfahren für den Einsatz von | Kryptografie und Verschlüsselung | Sicherheit des Personals | , Konzepte für die Zugriffskontrolle und für das Management von Anlagen | Verwendung von Lösungen zur | Multi-Faktor-Authentifizierung | oder kontinuierlichen Authentifizierung, gesicherte Sprach-, Video- und Textkommunikation sowie gegebenenfalls gesicherte Notfallkommunikationssysteme
+
+## Folie 162
+162 | Aufsicht | und | Durchsetzung | bei besonders wichtigen Einrichtungen | hat das BSI | anlasslos weitgehende Aufsichts- und Durchsetzungsbefugnisse | , § 61 BSIG | bei wichtigen Einrichtungen | nur bei Hinweisen auf Verstöße, § 62 BSIG | Geldbußen bei Verstößen bis | 10 Mio. Euro | oder | zwei Prozent | des globalen Jahresumsatzes möglich, § 65 BSIG
+
+## Folie 163
+Informationssicherheitsrecht und Compliance | Überblick über Rechtsquellen des Informationssicherheitsrechts | Resilienz kritischer Einrichtungen: CER- | Richtlinie und KRITIS-Dachgesetz | Cybersecurity | : NIS2-Richtlinie und BSI-Gesetz | Relevante Aspekte des Strafrechts | KI-Verordnung | 163 | Agenda
+
+## Folie 164
+§ 202a StGB: Ausspähen von Daten | § 202b StGB: Abfangen von Daten | § 202c StGB: Vorbereiten des Ausspähens und Abfangens von Daten („Hackerparagraf“) | § 263a StGB: Computerbetrug | § 268 StGB: Fälschung technischer Aufzeichnungen | § 274 StGB: Urkundenunterdrückung | § 303a StGB: Datenveränderung | § 303b StGB: Computersabotage | 164 | Relevante Straftatbestände
+
+## Folie 165
+§ 202a Ausspähen von Daten | (1) Wer unbefugt sich oder einem anderen Zugang zu Daten, die nicht für ihn bestimmt und die gegen unberechtigten Zugang besonders gesichert sind, unter Überwindung der Zugangssicherung verschafft, wird mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft. | (2) Daten im Sinne des Absatzes 1 sind nur solche, die elektronisch, magnetisch oder sonst nicht unmittelbar wahrnehmbar gespeichert sind oder übermittelt werden. | § 202b Abfangen von Daten | Wer unbefugt sich oder einem anderen unter Anwendung von technischen Mitteln nicht für ihn bestimmte Daten (§ 202a Abs. 2) aus einer nichtöffentlichen Datenübermittlung oder aus der elektromagnetischen Abstrahlung einer Datenverarbeitungsanlage verschafft, wird mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe bestraft, wenn die Tat nicht in anderen Vorschriften mit schwererer Strafe bedroht ist. | 165 | § 202a und § 202b StGB
+
+## Folie 166
+Wer eine Straftat nach § 202a oder § 202b vorbereitet, indem er | Passwörter oder sonstige Sicherungscodes, die den Zugang zu Daten (§ 202a Abs. 2) ermöglichen, oder | Computerprogramme, deren Zweck die Begehung einer solchen Tat ist, | herstellt, sich oder einem anderen verschafft, verkauft, einem anderen überlässt, verbreitet oder sonst zugänglich macht, wird mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe bestraft. | (2) (…) |  Problematisch ist die Einordnung von „Dual-Use“-Software sowie allgemein bei §§ 202a-c StGB des | Ethical | Penetration | Testing | /Hacking ohne Auftrag des Gehackten (z.B. von öffentlichen Stellen)  Reform gerade in Abstimmung | 166 | § 202c StGB - | Vorbereiten des Ausspähens und Abfangens von Daten
