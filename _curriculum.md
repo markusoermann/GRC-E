@@ -16,18 +16,18 @@
 
 ## Quellen-Konvention (kursweit, verbindlich)
 
-Jede Lerneinheit (Skript **und** Foliensatz) endet mit einem vollständigen Quellenverzeichnis. Wird im Text eine Quelle als Kurzbeleg genannt (z. B. „Dignum 2019", „Floridi/Sanders 2004"), muss am Ende die **vollständige bibliografische Angabe** stehen (Autor, Jahr, Titel, Verlag/Journal, ggf. DOI). Gliederung: *Literatur* · *Normen & Standards* · *Rechtsprechung*. Belege werden – wo vorhanden – über die **Zotero-Bibliothek** verifiziert; nicht enthaltene Standardreferenzen werden als solche gekennzeichnet und können per `ingest` ergänzt werden.
+Jede Lerneinheit endet mit einem vollständigen Quellenverzeichnis. Wird im Text eine Quelle als Kurzbeleg genannt (z. B. „Dignum 2019", „Floridi/Sanders 2004"), muss am Ende die **vollständige bibliografische Angabe** stehen (Autor, Jahr, Titel, Verlag/Journal, ggf. DOI). Gliederung: *Literatur* · *Normen & Standards* · *Rechtsprechung*. Belege werden – wo vorhanden – über die **Zotero-Bibliothek** verifiziert; nicht enthaltene Standardreferenzen werden als solche gekennzeichnet und können per `ingest` ergänzt werden.
 
 ## Lerneinheiten
 
 | Nr | Datei | Titel | Kernthemen | Status |
 |----|-------|-------|------------|--------|
-| 1 | `kap-01-ethische-grundlagen.qmd` (+ `slides/kap-01-slides.md`) | Ethische Grundlagen der Informationssicherheit | Ethik 101 & drei Schulen (Tugend-/Pflichten-/Verantwortungsethik), Sicherheit als Wert & Prinzip, moral agency digitaler Systeme, ethisches Design (Collingridge, Dignum/ART, IEEE 7000) | ✅ fertig (qmd + MARP) |
-| 2 | `kap-02-datenschutz-grundlagen.qmd` | Datenschutzrecht I – Grundlagen & Anwendungsbereich | Geschichte/Volkszählungsurteil, informationelle Selbstbestimmung, Schutzgut, Rechtsquellen, DSGVO-Grundsätze, pbD/Verarbeitung/Verantwortliche | ✅ fertig (qmd + MARP + 3 Widgets) |
-| 3 | `kap-03-datenschutz-rechtsgrundlagen-betroffenenrechte.qmd` | Datenschutzrecht II – Rechtsgrundlagen, Pflichten & Betroffenenrechte | Art. 6 Rechtsgrundlagen, Einwilligung, Art. 9, Informationspflichten (Art. 12–14), Betroffenenrechte (Art. 15–21) | ✅ fertig (qmd + MARP + 2 Widgets) |
-| 4 | `kap-04-datenschutz-technik-compliance-durchsetzung.qmd` | Datenschutzrecht III – Datensicherheit, Compliance & Durchsetzung | Dokumentation, DSFA (Art. 35), Datensicherheit (Art. 32/TOMs), Meldepflichten (Art. 33), Privacy by Design/Default (Art. 25), DSB, Haftung/Bußgeld/Schadensersatz, Videoüberwachung | ✅ fertig (qmd + MARP + 2 Widgets) |
-| 5 | `kap-05-informationssicherheitsrecht.qmd` | Informationssicherheitsrecht I – KRITIS, NIS2 & Strafrecht | Rechtsquellen-Überblick, CER-RL/KRITIS-DachG, NIS2-RL/BSIG, §§ 202a ff. StGB | ✅ fertig (qmd + MARP + 1 Widget) |
-| 6 | `kap-06-ki-verordnung.qmd` | Informationssicherheitsrecht II – KI-Verordnung | KI-VO: Hintergrund, Definitionen, risikobasierter Ansatz, verbotene Praktiken (Art. 5), Hochrisiko (Art. 6 ff.), Transparenz (Art. 50), GPAI, Governance, Zeitleiste, Haftung | ✅ fertig (qmd + MARP + 1 Widget) |
+| 1 | `01_ethische_grundlagen.qmd` | Ethische Grundlagen der Informationssicherheit | Ethik 101 & drei Schulen (Tugend-/Pflichten-/Verantwortungsethik), Sicherheit als Wert & Prinzip, moral agency digitaler Systeme, ethisches Design (Collingridge, Dignum/ART, IEEE 7000) | ✅ fertig (qmd + MARP) |
+| 2 | `02_datenschutz_grundlagen.qmd` | Datenschutzrecht I – Grundlagen & Anwendungsbereich | Geschichte/Volkszählungsurteil, informationelle Selbstbestimmung, Schutzgut, Rechtsquellen, DSGVO-Grundsätze, pbD/Verarbeitung/Verantwortliche | ✅ fertig (qmd + MARP + 3 Widgets) |
+| 3 | `03_datenschutz_rechtsgrundlagen_betroffenenrechte.qmd` | Datenschutzrecht II – Rechtsgrundlagen, Pflichten & Betroffenenrechte | Art. 6 Rechtsgrundlagen, Einwilligung, Art. 9, Informationspflichten (Art. 12–14), Betroffenenrechte (Art. 15–21) | ✅ fertig (qmd + MARP + 2 Widgets) |
+| 4 | `04_datenschutz_technik_compliance_durchsetzung.qmd` | Datenschutzrecht III – Datensicherheit, Compliance & Durchsetzung | Dokumentation, DSFA (Art. 35), Datensicherheit (Art. 32/TOMs), Meldepflichten (Art. 33), Privacy by Design/Default (Art. 25), DSB, Haftung/Bußgeld/Schadensersatz, Videoüberwachung | ✅ fertig (qmd + MARP + 2 Widgets) |
+| 5 | `05_informationssicherheitsrecht.qmd` | Informationssicherheitsrecht I – KRITIS, NIS2 & Strafrecht | Rechtsquellen-Überblick, CER-RL/KRITIS-DachG, NIS2-RL/BSIG, §§ 202a ff. StGB | ✅ fertig (qmd + MARP + 1 Widget) |
+| 6 | `06_ki_verordnung.qmd` | Informationssicherheitsrecht II – KI-Verordnung | KI-VO: Hintergrund, Definitionen, risikobasierter Ansatz, verbotene Praktiken (Art. 5), Hochrisiko (Art. 6 ff.), Transparenz (Art. 50), GPAI, Governance, Zeitleiste, Haftung | ✅ fertig (qmd + MARP + 1 Widget) |
 
 ## Verbindung zum LLMWiki (Single Point of Truth)
 
