@@ -1,6 +1,6 @@
 ---
 title: "Die KI-Verordnung"
-subtitle: "Risikobasierte Regeln für künstliche Intelligenz"
+subtitle: "Risikobasierte Regeln für Künstliche Intelligenz"
 date: last-modified
 lang: de
 
@@ -247,7 +247,7 @@ Welche Aussage zur Durchsetzung der KI-VO trifft zu?
 - GPAI-Modelle unterliegen denselben Pflichten wie Hochrisiko-Systeme.
 :::
 
-## Bogen zurück: von der Ethik zum Recht
+## Von der Ethik zum Recht
 
 Damit schließt sich der Kreis dieses Kurses. In der ersten Einheit haben wir Sicherheit als ethischen **Wert** begründet, die Grenzen maschineller Verantwortung ausgelotet und mit Collingridge, Dignum und der IEEE-7000-Familie gefordert, ethische Anforderungen **von Anfang an** in den Entwicklungsprozess zu holen. Die KI-VO ist die rechtliche Antwort auf genau diese Forderung: Sie übersetzt abstrakte Prinzipien wie Transparenz, menschliche Aufsicht, Rechenschaft und Schutz der Grundrechte in durchsetzbare Pflichten über den gesamten Lebenszyklus eines Systems. Zwischen dem ethischen Anspruch der ersten und dem rechtlichen Rahmen dieser letzten Einheit liegt der eigentliche Gegenstand von Governance, Risk, Compliance & Ethics: aus Werten verbindliche, prüfbare und gelebte Praxis zu machen.
 
