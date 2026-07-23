@@ -17,7 +17,9 @@ course: "Governance, Risk, Compliance & Ethics – Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
-format: moodle-html
+format:
+  moodle-html: default
+  reader-typst: default
 ---
 
 In der vorangegangenen Einheit haben Sie gesehen, wie das Datenschutzrecht über [Art. 32 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} ein „angemessenes Schutzniveau" für personenbezogene Daten verlangt. Das heißt technische und organisatorische Maßnahmen, die Vertraulichkeit, Integrität und Verfügbarkeit sichern. Diese Pflicht ist zugleich der Brückenkopf in ein eigenständiges Rechtsgebiet: das **Informationssicherheitsrecht**. Wo der Datenschutz auf die einzelne Person blickt, fragt das Informationssicherheitsrecht nach der Funktionsfähigkeit ganzer Systeme und Versorgungsstrukturen. Ein Stromausfall, ein lahmgelegtes Krankenhaus, ein kompromittiertes Wasserwerk, das sind keine Datenschutzvorfälle, sondern Bedrohungen der **Resilienz** der Gesellschaft. Diese Einheit ordnet das junge, in den Jahren 2025/2026 grundlegend umgebaute Rechtsgebiet und zeigt seine drei Säulen: die physische Resilienz kritischer Einrichtungen, die Cybersicherheit in der Fläche und das flankierende Strafrecht.

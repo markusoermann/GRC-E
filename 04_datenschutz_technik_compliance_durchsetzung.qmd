@@ -17,7 +17,9 @@ course: "Governance, Risk, Compliance & Ethics – Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
-format: moodle-html
+format:
+  moodle-html: default
+  reader-typst: default
 ---
 
 In der vorangegangenen Einheit haben wir gesehen, *unter welchen Voraussetzungen* eine Verarbeitung personenbezogener Daten rechtmäßig ist: Wir haben die Rechtsgrundlagen des [Art. 6 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}, die Anforderungen an eine wirksame Einwilligung, den verschärften Schutz besonderer Datenkategorien (Art. 9) sowie die Informationspflichten und die Betroffenenrechte (Art. 12–21) durchgearbeitet. Das alles bleibt jedoch weitgehend ohne Wirkung, solange es nicht durch robuste Technik und Organisation flankiert und vor allem schlagkräftig durchgesetzt wird. Das Datenschutzrecht bliebe ein zahnloser Tiger, wenn die Verarbeitung zwar formal erlaubt, aber technisch ungeschützt und faktisch unkontrolliert abliefe.

@@ -17,7 +17,9 @@ course: "Governance, Risk, Compliance & Ethics – Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
-format: moodle-html
+format:
+  moodle-html: default
+  reader-typst: default
 ---
 
 In der vorangegangenen Einheit haben wir das Fundament des Datenschutzrechts gelegt: den sachlichen und räumlichen Anwendungsbereich der DSGVO, den Begriff der personenbezogenen Daten (pbD) und die Rolle des Verantwortlichen, der über Zwecke und Mittel einer Verarbeitung entscheidet. Damit ist geklärt, *wann* das Datenschutzrecht überhaupt greift und *wer* in der Pflicht steht. Diese Einheit beantwortet die unmittelbar daran anschließende Frage: *Unter welchen Bedingungen* darf eine einmal als personenbezogen erkannte Datenverarbeitung tatsächlich stattfinden? Und welche Rechte stehen den betroffenen Personen dabei zu?

@@ -17,7 +17,9 @@ course: "Governance, Risk, Compliance & Ethics – Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
-format: moodle-html
+format:
+  moodle-html: default
+  reader-typst: default
 ---
 
 In der ersten Einheit haben wir uns mit ethischen Werten wie Sicherheit, Freiheit und Selbstbestimmung beschäftigt. Das Datenschutzrecht ist nun das erste Gebiet des Rechts, das wir betrachten, welches einen dieser Werte, die informationelle Selbstbestimmung, in mit staatlicher Gewalt durchsetzbare Pflichten übersetzt. Dieses Skript legt das Fundament: Es klärt, *warum* es Datenschutz gibt, *was* er schützt, *wo* er gilt und nach welchen *Grundsätzen* jede Datenverarbeitung zu beurteilen ist. Ziel ist es, Ihnen ein belastbares Prüfraster an die Hand zu geben, mit dem Sie in der Praxis der Informationssicherheit erkennen, wann das Datenschutzrecht greift und welche Maßstäbe es anlegt.

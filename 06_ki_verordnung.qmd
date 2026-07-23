@@ -17,7 +17,9 @@ course: "Governance, Risk, Compliance & Ethics, Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
-format: moodle-html
+format:
+  moodle-html: default
+  reader-typst: default
 ---
 
 In der vorigen Einheit haben wir das Informationssicherheitsrecht entlang seiner zentralen Rechtsquellen kennengelernt: die Resilienz kritischer Einrichtungen (CER-Richtlinie und KRITIS-Dachgesetz), die Cybersicherheit nach NIS2-Richtlinie und BSI-Gesetz sowie die strafrechtliche Flanke der [§§ 202a ff. StGB](https://www.gesetze-im-internet.de/stgb/__202a.html){target="_blank"}. Diese Regelwerke schützen die Verfügbarkeit, Integrität und Vertraulichkeit von Systemen. Sie fragen aber nicht danach, *was* ein System inhaltlich tut. Genau hier setzt die KI-Verordnung an: Sie reguliert eine Grundlagentechnologie der Digitalen Gesellschaft und ihre Anwendungen, und sie tut dies mit Blick auf Sicherheit, Gesundheit und Grundrechte. 

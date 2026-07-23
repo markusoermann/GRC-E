@@ -17,7 +17,9 @@ course: "Governance, Risk, Compliance & Ethics – Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
-format: moodle-html
+format:
+  moodle-html: default
+  reader-typst: default
 ---
 
 Dieses Skript begleitet die erste Lerneinheit der Veranstaltung "Governance, Risk, Compliance & Ethics – Teil 2". Es legt das ethische Fundament, auf dem die folgenden rechtlichen Einheiten zum Datenschutz- und Informationssicherheitsrecht aufbauen. Ziel ist nicht, Sie zu Moralphilosophinnen und -philosophen auszubilden, sondern Ihnen ein Werkzeug an die Hand zu geben, mit dem Sie ethische Anforderungen an digitale Systeme mit Sicherheitsrelevanz erkennen, begründen und in Arbeitsprozesse einfügen können.
