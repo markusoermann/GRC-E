@@ -1,0 +1,80 @@
+---
+title: "Governance, Risk, Compliance & Ethics – Teil 2"
+subtitle: "Kursstartseite & Inhaltsverzeichnis"
+date: last-modified
+lang: de
+toc: false
+number-sections: false
+
+# Autoren-Daten
+author:
+  - name: Prof. Dr. Markus Oermann
+    email: markus.oermann@thws.de
+    role: Dozent
+    affiliation: THWS FIW
+
+# Semester-Daten
+semester: "WS 26/27"
+course: "Governance, Risk, Compliance & Ethics – Teil 2"
+version: "1.0"
+
+# --- Ausgabe-Formate ---
+format: moodle-html
+---
+
+Willkommen bei **Governance, Risk, Compliance & Ethics – Teil 2**, einem Modul des Studiengangs Information Security an der THWS. In sechs Lerneinheiten bauen wir das ethische Fundament für den Umgang mit sicherheitsrelevanten digitalen Systemen auf und übersetzen es in die konkreten rechtlichen Anforderungen, die Datenschutz- und Informationssicherheitsrecht an Unternehmen und Einzelpersonen stellen. Vorkenntnisse in Philosophie oder Recht werden nicht vorausgesetzt; vorausgesetzt wird, dass Sie als Sicherheitsexpertinnen und -experten Systeme mitgestalten, deren Wirkung auf Menschen weder neutral noch immer offensichtlich ist – und dass Sie diese Wirkungen lieber antizipieren als von ihnen überrascht werden möchten.
+
+Jede Einheit unten ist ein eigenständiges, interaktives Skript: Lesen Sie es im Browser, arbeiten Sie die eingebetteten Quick-Checks, Fallstudien und Widgets durch, und nutzen Sie das vollständige Quellenverzeichnis am Ende für die Vertiefung.
+
+## Kursdaten
+
+| | |
+|---|---|
+| **Studiengang** | Information Security, THWS FIW |
+| **Semester** | Wintersemester 2026/2027 |
+| **Dozent** | Prof. Dr. iur. Markus Oermann, M.A. (THWS FIW) |
+| **Format** | 6 Lerneinheiten à 180 Minuten, Single Source Publishing (interaktives Skript + PDF) |
+| **Prüfung** | Klausur (90 Min., davon 45 Min. zu Ethik, Datenschutz- und Informationssicherheitsrecht/-compliance); Gesetzestexte als Hilfsmittel zugelassen |
+| **Sprache** | Deutsch |
+
+## So nutzen Sie diese Seite
+
+- **6 chronologische Lerneinheiten** (unten), jede ein eigenständiges Quarto-Skript entlang des Semesterverlaufs.
+- **Interaktive Elemente** sind direkt im Text eingebettet: Flip-Cards für Definitionen, Quick-Checks zur Selbstkontrolle, Fallstudien und Widgets, mit denen Sie rechtliche Mechanismen selbst durchspielen können.
+- **Quellen.** Jede Einheit schließt mit einem vollständigen Quellenverzeichnis (Literatur, Normen & Standards, Rechtsprechung) zu allen im Text verwendeten Belegen.
+
+## Inhaltsverzeichnis
+
+### Teil I · Ethische Grundlagen
+
+Das ethische Fundament, auf dem die folgenden rechtlichen Einheiten aufbauen: Grundbegriffe der Ethik, die drei klassischen Denkschulen und moralische Verantwortung für digitale Systeme.
+
+| Nr | Einheit | Was Sie lernen | Reader |
+|----|------|------|------|
+| 1 | [Ethische Grundlagen der Informationssicherheit](01_ethische_grundlagen.html) | Ethik 101 & drei Schulen (Tugend-, Pflichten-, Verantwortungsethik), Sicherheit als Wert & Prinzip, moral agency digitaler Systeme, ethisches Design (Collingridge, Dignum/ART, IEEE 7000) | [PDF](01_ethische_grundlagen.pdf) |
+
+### Teil II · Datenschutzrecht
+
+Die DSGVO von den historischen Grundlagen über Rechtsgrundlagen und Betroffenenrechte bis zu technisch-organisatorischen Pflichten und ihrer Durchsetzung.
+
+| Nr | Einheit | Was Sie lernen | Reader |
+|----|------|------|------|
+| 2 | [Datenschutzrecht I – Grundlagen & Anwendungsbereich](02_datenschutz_grundlagen.html) | Geschichte/Volkszählungsurteil, informationelle Selbstbestimmung, Schutzgut, Rechtsquellen, DSGVO-Grundsätze, personenbezogene Daten/Verarbeitung/Verantwortliche | [PDF](02_datenschutz_grundlagen.pdf) |
+| 3 | [Datenschutzrecht II – Rechtsgrundlagen, Pflichten & Betroffenenrechte](03_datenschutz_rechtsgrundlagen_betroffenenrechte.html) | Art. 6 Rechtsgrundlagen, Einwilligung, Art. 9, Informationspflichten (Art. 12–14), Betroffenenrechte (Art. 15–21) | [PDF](03_datenschutz_rechtsgrundlagen_betroffenenrechte.pdf) |
+| 4 | [Datenschutzrecht III – Datensicherheit, Compliance & Durchsetzung](04_datenschutz_technik_compliance_durchsetzung.html) | Dokumentation, DSFA (Art. 35), Datensicherheit (Art. 32/TOMs), Meldepflichten (Art. 33), Privacy by Design/Default (Art. 25), Datenschutzbeauftragter, Haftung/Bußgeld/Schadensersatz, Videoüberwachung | [PDF](04_datenschutz_technik_compliance_durchsetzung.pdf) |
+
+### Teil III · Informationssicherheitsrecht
+
+Der Rechtsrahmen für kritische Infrastrukturen und Cybersicherheit sowie die risikobasierte Regulierung Künstlicher Intelligenz durch die KI-Verordnung.
+
+| Nr | Einheit | Was Sie lernen | Reader |
+|----|------|------|------|
+| 5 | [Informationssicherheitsrecht – KRITIS, NIS2 & Strafrecht](05_informationssicherheitsrecht.html) | Rechtsquellen-Überblick, CER-Richtlinie/KRITIS-DachG, NIS2-Richtlinie/BSIG, §§ 202a ff. StGB | [PDF](05_informationssicherheitsrecht.pdf) |
+| 6 | [Die KI-Verordnung](06_ki_verordnung.html) | KI-VO: Hintergrund, Definitionen, risikobasierter Ansatz, verbotene Praktiken (Art. 5), Hochrisiko-KI (Art. 6 ff.), Transparenzpflichten (Art. 50), GPAI, Governance, Zeitleiste, Haftung | [PDF](06_ki_verordnung.pdf) |
+
+## Dozent
+
+**Prof. Dr. iur. Markus Oermann, M.A.**
+Fakultät Informatik und Wirtschaftsinformatik
+Technische Hochschule Würzburg-Schweinfurt (THWS)
+[markus.oermann@thws.de](mailto:markus.oermann@thws.de)

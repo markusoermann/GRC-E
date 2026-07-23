@@ -1,10 +1,12 @@
 # macOS
 .DS_Store
 
-# Quarto render output
-*.html
-*_files/
+# Quarto render cache
 .quarto/
 
 # Freeze cache
 /.quarto/
+
+# Lernspiele (nicht Teil der Vorlesungsmaterialien)
+lawman.html
+the_legal_run.html
