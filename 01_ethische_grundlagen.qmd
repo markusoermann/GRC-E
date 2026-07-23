@@ -101,7 +101,10 @@ Das Bundesverfassungsgericht erklärte die Abschussermächtigung für **nichtig*
 
 Schauen Sie erst das Video, lesen Sie dann weiter:
 
-[![Heider-Simmel-Experiment](https://img.youtube.com/vi/VTNmLt7QX8E/maxresdefault.jpg)](https://www.youtube.com/watch?v=VTNmLt7QX8E)
+::: {.widget}
+<iframe id="heider-simmel-embed" width="100%" height="420px" frameborder="0" title="Heider-Simmel-Experiment" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script>document.getElementById("heider-simmel-embed").src = "https://www.youtube.com/embed/VTNmLt7QX8E";</script>
+:::
 
 Was haben Sie hier gesehen? Wahrscheinlich eine Verfolgung, spielende Kinder oder einen Familienstreit. Das Faszinierende daran: Hier bewegten sich doch eigentlich nur geometrische Figuren. Die Psychologen Fritz Heider und Marianne Simmel zeigten bereits 1944, dass Menschen bewegten geometrischen Figuren spontan Absichten, Gefühle und „Handlungen" zuschreiben. Diese Neigung prägt unsere Alltagssprache: Wir sagen „Siri macht dies und das" und behandeln KI sprachlich als Akteur. Digitale Systeme übernehmen zunehmend Aufgaben mit sozialen Folgen – Kreditscoring, Fahrzeugsteuerung, Content-Empfehlung. Daraus erwächst die Frage nach der **Handlungsfähigkeit („Agency")** technischer Systeme und ihren moralischen Konsequenzen. Um diese besser beurteilen zu können, müssen wir jetzt drei Grundbegriffe klären.
 
@@ -145,9 +148,9 @@ Warum muss ethische Bewertung bereits *während* der Entwicklung stattfinden? Da
 
 Virginia *Dignum* (2019) verlangt, KI-Systeme schon in frühen Stadien als sozial relevante Systeme zu behandeln. Ihr Leitprinzip ist **ART**: **A**ccountability (Rechenschaft), **R**esponsibility (Verantwortung) und **T**ransparency (Transparenz). Im Rahmen *Responsible Research and Innovation* (RRI) sollen alle relevanten Stakeholder in einen offenen Entwicklungsprozess eingebunden werden. Das folgende Modell zeigt, wie ethische Anforderungen (Werte → Normen → Funktionalitäten) systematisch mit dem technischen Systemdesign verknüpft werden:
 
-![Werte, Normen und Funktionalitäten bauen aufeinander auf: Normen entstehen aus der Interpretation von Werten, Funktionalitäten aus der Konkretisierung von Normen (Dignum 2019: S. 63).](media/dignum-werte-normen-funktionen.png)
+![Werte, Normen und Funktionalitäten bauen aufeinander auf: Normen entstehen aus der Interpretation von Werten, Funktionalitäten aus der Konkretisierung von Normen (eigene Darstellung in Anlehnung an Dignum 2019: S. 63).](media/dignum-werte-normen-funktionen.png)
 
-![Responsible-AI-Design nach Dignum (2019, S. 65): Werte, Normen und Funktionalitäten werden über *intention*, *boundary* und *instantiation* mit dem Systemdesign verbunden.](media/dignum-responsible-ai-design.png)
+Das Systemdesign wird über drei Verbindungsebenen an diese Kette angeschlossen (Dignum 2019, S. 65): *intention* verknüpft die zugrunde liegenden Werte mit der Zwecksetzung des Systems, *boundary* übersetzt Normen in Grenzen und Rahmenbedingungen des zulässigen Systemverhaltens, und *instantiation* setzt die daraus abgeleiteten Funktionalitäten im technischen Design um.
 
 Die **grundlegende Prozessstruktur** umfasst fünf Schritte:
 1. Identifizierung der relevanten Stakeholder,
@@ -156,7 +159,7 @@ Die **grundlegende Prozessstruktur** umfasst fünf Schritte:
 4. Festhalten formaler Verbindungen zwischen Werten, Normen und Systemfunktionen, um das System an sich entwickelnde Wahrnehmungen anpassbar zu halten,
 5. Unterstützung aller am Entwicklungsprozess Beteiligten bei der Auswahl von Systemkomponenten anhand ihrer zugrunde liegenden gesellschaftlichen und ethischen Vorstellungen.
 
-![Die zirkuläre Prozessstruktur nach Dignum (2019): Die fünf Schritte bilden keinen linearen Ablauf, sondern einen fortlaufenden Kreislauf, der das System an sich wandelnde Werte und Wahrnehmungen anpasst.](media/dignum-prozess-zyklus.png)
+![Die zirkuläre Prozessstruktur: Die fünf Schritte bilden keinen linearen Ablauf, sondern einen fortlaufenden Kreislauf, der das System an sich wandelnde Werte und Wahrnehmungen anpasst (eigene Darstellung in Anlehnung an Dignum 2019).](media/dignum-prozess-zyklus.png)
 
 ### Industriestandards: Die IEEE-7000-Familie
 
