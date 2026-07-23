@@ -255,7 +255,7 @@ Damit schließt sich der Kreis dieses Kurses. In der ersten Einheit haben wir Si
 
 ### Literatur
 
-- Novelli, C., Hacker, P., Morley, J., Trondal, J. & Floridi, L. (2024): *A Robust Governance for the AI Act: AI Office, AI Board, Scientific Panel, and National Authorities*. Digital Society.
+- Novelli, C., Hacker, P., Morley, J., Trondal, J. & Floridi, L. (2024): A Robust Governance for the AI Act: AI Office, AI Board, Scientific Panel, and National Authorities. *European Journal of Risk Regulation* 16 (2), S. 566–590. <https://doi.org/10.1017/err.2024.57>
 
 ### Normen & Standards
 
