@@ -13,7 +13,7 @@ author:
 
 # Semester-Daten
 semester: "WS 26/27"
-course: "Governance, Risk, Compliance & Ethics, Teil 2"
+course: "Governance, Risk, Compliance & Ethics – Teil 2"
 version: "1.0"
 
 # --- Ausgabe-Formate ---
@@ -50,7 +50,7 @@ So weit der räumliche Zugriff ist, so weit sind auch die sachlichen Ausnahmen (
 Das *Marktortprinzip* knüpft an den Ort der Marktwirkung an, nicht an den Sitz des Anbieters; eine rein *persönliche, nicht-berufliche* KI-Nutzung fällt aus dem Anwendungsbereich.
 :::
 
-### Was ist ein „KI-System"?
+### Was ist ein „KI-System“?
 
 Die Schlüsseldefinition steht in [Art. 3 Nr. 1 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}. Ein **KI-System** ist danach ein *maschinengestütztes System*, das für einen *in unterschiedlichem Grade autonomen Betrieb* ausgelegt ist, nach der Betriebsaufnahme *anpassungsfähig* sein kann und aus den erhaltenen Eingaben für *explizite oder implizite Ziele* ableitet, wie es Ausgaben (Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen) erzeugt, die physische oder virtuelle Umgebungen beeinflussen. Drei Merkmale tragen die Definition: **Autonomiegrad**, **Anpassungsfähigkeit** und die **Ableitung von Ausgaben** aus Eingaben. Klassische, deterministisch programmierte Software fällt damit nicht unter den Begriff. 
 
@@ -70,7 +70,7 @@ Je höher das Risiko, desto dichter die Pflichten; die ganz große Masse alltäg
 
 ## Verbotene Praktiken ([Art. 5 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
 
-An der Spitze der Pyramide stehen die (etwas plakativ so genannten) „Todsünden". [Art. 5 Abs. 1 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} verbietet KI-Praktiken, die als Bedrohung für Sicherheit, Leben und Grundrechte gelten. Dazu zählen insbesondere:
+An der Spitze der Pyramide stehen die (etwas plakativ so genannten) „Todsünden“. [Art. 5 Abs. 1 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} verbietet KI-Praktiken, die als Bedrohung für Sicherheit, Leben und Grundrechte gelten. Dazu zählen insbesondere:
 
 - **manipulative KI**, die durch unterschwellige Techniken einen erheblichen Schaden verursacht (lit. a);
 - KI, die **Vulnerabilitäten** (etwa wegen Alter, Behinderung oder wirtschaftlicher Lage) zur Verhaltensbeeinflussung ausnutzt (lit. b);
@@ -81,14 +81,14 @@ An der Spitze der Pyramide stehen die (etwas plakativ so genannten) „Todsünde
 
 Auch zur Auslegung dieser Verbote hat das KI-Büro [Leitlinien](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act) vom 4. Februar 2025 vorgelegt.
 
-Der **2026 politisch vereinbarte AI Omnibus** (siehe Vertiefung weiter unten) ergänzt den Katalog um ein weiteres Verbot: KI-Systeme, die **nicht-einvernehmliche intime Aufnahmen („Nudifier")** oder **Missbrauchsdarstellungen von Kindern** erzeugen oder manipulieren, mit einer Übergangsfrist bis zum **2. Dezember 2026**.
+Der **2026 politisch vereinbarte AI Omnibus** (siehe Vertiefung weiter unten) ergänzt den Katalog um ein weiteres Verbot: KI-Systeme, die **nicht-einvernehmliche intime Aufnahmen („Nudifier“)** oder **Missbrauchsdarstellungen von Kindern** erzeugen oder manipulieren, mit einer Übergangsfrist bis zum **2. Dezember 2026**.
 
 ### Spezialfall: biometrische Echtzeit-Fernidentifizierung
 
 Der heikelste Punkt war die **biometrische Live-Gesichtserkennung zur Strafverfolgung**. Hier prallten die Positionen frontal aufeinander: Das Parlament wollte ein generelles Verbot, der Rat war dagegen. Das Ergebnis ist ein **Kompromiss** ([Art. 5 Abs. 1 lit. h, Abs. 2–5 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Die **Echtzeit-Fernidentifizierung in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken ist grundsätzlich verboten**, aber unter Genehmigungsvorbehalt in engen Ausnahmen zulässig: zur Suche nach einer vermissten Person, zur Abwehr einer konkreten und unmittelbaren terroristischen Bedrohung sowie zur Verfolgung von Tätern oder Verdächtigen schwerer Straftaten. Außerhalb dieser Ausnahmen werden biometrische Fernerkennungssysteme als hochriskant eingestuft und entsprechend streng reguliert.
 
 ::: {.quick-check}
-Eine Schulsoftware soll während des Unterrichts die Emotionen der Lernenden auswerten, um die „Aufmerksamkeit" zu messen. Wie ist das nach der KI-VO einzuordnen?
+Eine Schulsoftware soll während des Unterrichts die Emotionen der Lernenden auswerten, um die „Aufmerksamkeit“ zu messen. Wie ist das nach der KI-VO einzuordnen?
 
 - Hochrisiko-KI mit Konformitätsbewertung
 - **Verbotene Praktik (Emotionserkennung in Bildungseinrichtungen)**
@@ -134,7 +134,7 @@ Für Hochrisiko-Systeme gilt ein dichter Pflichtenkatalog, der den gesamten Lebe
 - **Daten-Governance**: Training nur mit qualifizierten, repräsentativen Datensätzen ([Art. 10](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
 - **technische Dokumentation** mit allen Informationen, die Behörden zur Prüfung benötigen ([Art. 11](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
 - **Protokollierung** der Systemaktivitäten zur Rückverfolgbarkeit ([Art. 12](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
-- **Transparenz** und klare Informationen für nachgelagerte Akteure, die „Bedienungsanleitung" ([Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
+- **Transparenz** und klare Informationen für nachgelagerte Akteure, die „Bedienungsanleitung“ ([Art. 13](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
 - **menschliche Aufsicht**, etwa durch eine Abschalteinrichtung ([Art. 14](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"});
 - **Robustheit, Genauigkeit und Cybersicherheit** ([Art. 15](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}).
 
@@ -157,7 +157,7 @@ Bewerbermanagement bei der Einstellung ist ein in **Anhang III** gelisteter Verw
 
 ## Begrenztes Risiko: Transparenzpflichten ([Art. 50 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"})
 
-Eine Stufe tiefer auf der Risikopyramide reguliert die KI-VO nicht das *Ob*, sondern nur das *Offenlegen*. [Art. 50 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} verlangt **Transparenz**, wo Menschen sonst über die Natur einer Interaktion oder eines Inhalts getäuscht werden könnten. Anbieter eines Systems, das mit Menschen **interagiert** (etwa ein Chatbot), müssen offenlegen, dass es sich um eine KI handelt (Abs. 1). Wer **synthetische Inhalte generiert**, muss diese maschinenlesbar kennzeichnen (Stichwort „**Watermarking**", Abs. 2). Betreiber von Systemen zur **Emotionserkennung oder biometrischen Kategorisierung** informieren die Betroffenen (Abs. 3). Und wer **Deepfakes** oder Texte von öffentlichem Interesse erzeugt, muss sie als künstlich erzeugt **kennzeichnen** (Stichwort „Labeling", Abs. 4). Die Inhalte selbst erden nicht geregelt; reguliert wird allein die Erkennbarkeit.
+Eine Stufe tiefer auf der Risikopyramide reguliert die KI-VO nicht das *Ob*, sondern nur das *Offenlegen*. [Art. 50 KI-VO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} verlangt **Transparenz**, wo Menschen sonst über die Natur einer Interaktion oder eines Inhalts getäuscht werden könnten. Anbieter eines Systems, das mit Menschen **interagiert** (etwa ein Chatbot), müssen offenlegen, dass es sich um eine KI handelt (Abs. 1). Wer **synthetische Inhalte generiert**, muss diese maschinenlesbar kennzeichnen (Stichwort „**Watermarking**“, Abs. 2). Betreiber von Systemen zur **Emotionserkennung oder biometrischen Kategorisierung** informieren die Betroffenen (Abs. 3). Und wer **Deepfakes** oder Texte von öffentlichem Interesse erzeugt, muss sie als künstlich erzeugt **kennzeichnen** (Stichwort „Labeling“, Abs. 4). Die Inhalte selbst erden nicht geregelt; reguliert wird allein die Erkennbarkeit.
 
 ![Die Transparenzpflichten des Art. 50 KI-VO im Überblick: Anbieter informieren bei Interaktion mit Menschen (Abs. 1) und kennzeichnen synthetische Inhalte maschinenlesbar (Abs. 2); Betreiber informieren Betroffene bei Emotionserkennung und biometrischer Kategorisierung (Abs. 3) und kennzeichnen Deepfakes sowie Texte von öffentlichem Interesse (Abs. 4) (eigene Darstellung).](media/ki-vo-transparenzpflichten-art50.png)
 
@@ -190,7 +190,7 @@ Die Durchsetzung ruht auf einem **mehrstufigen Governance-Gefüge** (vgl. Novell
 
 Die KI-VO gilt nicht auf einen Schlag, sondern in Etappen ([Art. 113](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}). Ursprünglich waren dafür vier Stufen vorgesehen; der **AI Omnibus** (siehe Vertiefung unten) hat zwei davon um über ein Jahr nach hinten verschoben. Die nach der politischen Einigung vom Mai 2026 maßgebliche Zeitleiste:
 
-- **2. Februar 2025**: die **Verbote** (Kapitel I und II) sowie die KI-Kompetenz-Pflicht werden anwendbar (Letztere durch den Omnibus abgeschwächt; neu hinzu tritt das Verbot von „Nudifiern" und KI-generiertem Missbrauchsmaterial, das ab **2. Dezember 2026** greift);
+- **2. Februar 2025**: die **Verbote** (Kapitel I und II) sowie die KI-Kompetenz-Pflicht werden anwendbar (Letztere durch den Omnibus abgeschwächt; neu hinzu tritt das Verbot von „Nudifiern“ und KI-generiertem Missbrauchsmaterial, das ab **2. Dezember 2026** greift);
 - **2. August 2025**: die Regeln zu **GPAI-Modellen**, zu den Behörden, zur **Governance** und zu den **Sanktionen** — hiervon rührt der Omnibus nicht;
 - **2. August 2026**: die **Transparenzpflichten** des [Art. 50](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"} (Chatbot-Hinweis, Deepfake-Kennzeichnung); für die Kennzeichnungspflicht nach Abs. 2 gilt bei bereits im Verkehr befindlichen Systemen eine Übergangsfrist bis **2. Dezember 2026**;
 - **2. August 2027**: die Frist der Mitgliedstaaten zur Einrichtung von **Reallaboren** (Art. 57), ursprünglich 2026;
@@ -232,12 +232,12 @@ Nein. Die KI-VO regelt Bedingungen für den Marktzugang, Risikomanagement und Au
 :::
 
 ::: {.details}
-#### Vertiefung: Der „AI Omnibus" — von der Ankündigung zur beschlossenen Fristverschiebung
+#### Vertiefung: Der „AI Omnibus“ — von der Ankündigung zur beschlossenen Fristverschiebung
 Bereits kurz nach Geltungsbeginn kündigte die Kommission Anpassungen an. Am **19. November 2025** legte sie den **Digital Omnibus on AI** vor: vereinfachte Dokumentationspflichten (auch für Mid-Caps), eine klarere Rechtsgrundlage für die Verarbeitung besonderer Datenkategorien zur **Bias-Erkennung**, eine Stärkung des KI-Büros und vor allem eine Verschiebung einzelner Umsetzungsfristen.
 
 Die Trilog-Verhandlungen waren zäh: Ein erster Anlauf am 28. April 2026 scheiterte an der Konformitätsbewertung für Anhang-I-Systeme. Am **7. Mai 2026** einigten sich Rat und Parlament vorläufig, der Rat bestätigte am 13. Mai, das Parlament stimmte am **16. Juni 2026** mit 423 zu 57 Stimmen (bei 174 Enthaltungen) zu, und der Rat gab am **29. Juni 2026** sein endgültiges Placet. Offen sind bei Redaktionsschluss dieses Kapitels nur noch Unterzeichnung und Veröffentlichung im Amtsblatt, die vor dem 2. August 2026 erwartet wird; **erst damit werden die neuen Fristen rechtsverbindlich**.
 
-Kern der Einigung sind die im vorigen Abschnitt dargestellten **Fristverschiebungen** für Anhang-III- (2. Dezember 2027) und Anhang-I-Systeme (2. August 2028) sowie für die Reallabore (2. August 2027). Hinzu kommen ein neues **Verbot von KI-„Nudifiern" und KI-generiertem Missbrauchsmaterial** ([Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}, Übergangsfrist bis 2. Dezember 2026), eine viermonatige Übergangsfrist für die **Kennzeichnungspflicht** des Art. 50 Abs. 2 bei Bestandssystemen, eine Ausdehnung der Rechtsgrundlage zur **Bias-Erkennung** auf alle KI-Systeme und GPAI-Modelle, eine Begrenzung doppelter Prüfpflichten für in Sektorrecht eingebettete Anhang-I-Systeme sowie die bereits erwähnte Abschwächung der KI-Kompetenz-Pflicht. Die **GPAI-Regeln** ([Art. 51 ff.](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}) und die übrigen Verbote des Art. 5 bleiben unangetastet. Der Vorgang zeigt exemplarisch: Die KI-VO ist kein abgeschlossenes Werk, sondern wird schon in ihrer Umsetzungsphase nachjustiert, hier durch eine Verlängerung der Vorlaufzeit, nicht durch eine Absenkung der materiellen Anforderungen.
+Kern der Einigung sind die im vorigen Abschnitt dargestellten **Fristverschiebungen** für Anhang-III- (2. Dezember 2027) und Anhang-I-Systeme (2. August 2028) sowie für die Reallabore (2. August 2027). Hinzu kommen ein neues **Verbot von KI-„Nudifiern“ und KI-generiertem Missbrauchsmaterial** ([Art. 5](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}, Übergangsfrist bis 2. Dezember 2026), eine viermonatige Übergangsfrist für die **Kennzeichnungspflicht** des Art. 50 Abs. 2 bei Bestandssystemen, eine Ausdehnung der Rechtsgrundlage zur **Bias-Erkennung** auf alle KI-Systeme und GPAI-Modelle, eine Begrenzung doppelter Prüfpflichten für in Sektorrecht eingebettete Anhang-I-Systeme sowie die bereits erwähnte Abschwächung der KI-Kompetenz-Pflicht. Die **GPAI-Regeln** ([Art. 51 ff.](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401689){target="_blank"}) und die übrigen Verbote des Art. 5 bleiben unangetastet. Der Vorgang zeigt exemplarisch: Die KI-VO ist kein abgeschlossenes Werk, sondern wird schon in ihrer Umsetzungsphase nachjustiert, hier durch eine Verlängerung der Vorlaufzeit, nicht durch eine Absenkung der materiellen Anforderungen.
 :::
 
 ::: {.quick-check}

@@ -26,16 +26,16 @@ In der vorangegangenen Einheit haben wir das Fundament des Datenschutzrechts gel
 
 Wir bewegen uns dabei von den Erlaubnistatbeständen über die Pflichten des Verantwortlichen bis zu den durchsetzbaren Rechten der Betroffenen. Das ist kein Zufall, sondern spiegelt die innere Logik der DSGVO wider: Sie übersetzt den in der ersten Datenschutz-Einheit hergeleiteten Wert der informationellen Selbstbestimmung in ein System aus Erlaubnisvorbehalt, Transparenz und individuellen Kontrollrechten.
 
-## Rechtsgrundlagen: Das Verbot mit Erlaubnisvorbehalt
+## Das Verbot mit Erlaubnisvorbehalt
 
-Das Fundament des europäischen Datenschutzes beruht auf einem so simplen wie weitreichenden Prinzip: Jede Verarbeitung personenbezogener Daten ist zunächst einmal verboten. Erst wenn der Verantwortliche eine explizite gesetzlich vorgesehene Erlaubnis – eine Rechtsgrundlage – vorweisen kann, wird die Datenverarbeitung zulässig. Dieses System nennen Jurist/-innen „Verbot mit Erlaubnisvorbehalt".
+Das Fundament des europäischen Datenschutzes beruht auf einem so simplen wie weitreichenden Prinzip: Jede Verarbeitung personenbezogener Daten ist zunächst einmal verboten. Zulässig wird die Datenverarbeitung erst, wenn der Verantwortliche eine explizite gesetzlich vorgesehene Erlaubnis vorweisen kann, also eine Rechtsgrundlage. Dieses System nennen Jurist/-innen „Verbot mit Erlaubnisvorbehalt“.
 
 ::: {.flip-card}
 #### Verbot mit Erlaubnisvorbehalt
 Grundsätzliche Unzulässigkeit jeder Datenverarbeitung, es sei denn, eine gesetzliche Rechtsgrundlage (nach [Art. 6 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}) erlaubt sie ausdrücklich.
 :::
 
-Die relevanten Erlaubnistatbestände finden sich in [Art. 6 Abs. 1 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}. Wenn nur eine der dort genannten Bedingungen erfüllt ist, leuchtet die datenschutzrechtliche Ampel grün. Die sechs Tatbestände der Buchstaben a bis f bilden gemeinsam die „Schaltzentrale" des Datenschutzrechts: Jede Verarbeitung muss sich auf wenigstens einen von ihnen stützen lassen, sonst ist sie rechtswidrig.
+Die relevanten Erlaubnistatbestände finden sich in [Art. 6 Abs. 1 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}. Wenn nur eine der dort genannten Bedingungen erfüllt ist, leuchtet die datenschutzrechtliche Ampel grün. Die sechs Tatbestände der Buchstaben a bis f bilden gemeinsam die „Schaltzentrale“ des Datenschutzrechts: Jede Verarbeitung muss sich auf wenigstens einen von ihnen stützen lassen, sonst ist sie rechtswidrig.
 
 ::: {.details}
 #### Die sechs Erlaubnistatbestände des Art. 6 Abs. 1 DSGVO im Überblick
@@ -47,9 +47,9 @@ Die relevanten Erlaubnistatbestände finden sich in [Art. 6 Abs. 1 DSGVO](https:
 - **Berechtigtes Interesse (lit. f):** Die Verarbeitung ist zur Wahrung legitimer Interessen eines Unternehmens erforderlich und die Interessen der Betroffenen überwiegen nicht. *Achtung: Auf diese Rechtsgrundlage dürfen sich Behörden in Erfüllung ihrer öffentlichen Aufgaben nicht stützen.*
 :::
 
-Zwei dieser Tatbestände verdienen besondere Aufmerksamkeit, weil sie eine detaillierte Prüfung erfordern. Die **Vertragserfüllung (lit. b)** trägt nur, soweit die Verarbeitung für den Vertrag *objektiv erforderlich* ist – die bloße Bequemlichkeit oder ein bloßer zusätzlicher Werbezweck reichen nicht. Das **berechtigte Interesse (lit. f)** ist die flexibelste, aber auch anspruchsvollste Grundlage: Es verlangt eine dreistufige Prüfung: (1) Ein legitimes Interesse des Verantwortlichen, (2) die Erforderlichkeit der Verarbeitung für die Wahrung dieses Interesses und (3) eine Abwägung, bei der die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person nicht überwiegen dürfen. Gerade weil lit. f keinen festen Katalog liefert, ist die saubere Dokumentation dieser Abwägung in der Praxis entscheidend.
+Zwei dieser Tatbestände verdienen besondere Aufmerksamkeit, weil sie eine detaillierte Prüfung erfordern. Die **Vertragserfüllung (lit. b)** trägt nur, soweit die Verarbeitung für den Vertrag *objektiv erforderlich* ist. Bloße Bequemlichkeit oder ein zusätzlicher Werbezweck reichen nicht. Das **berechtigte Interesse (lit. f)** ist die flexibelste, aber auch anspruchsvollste Grundlage: Es verlangt eine dreistufige Prüfung: (1) Ein legitimes Interesse des Verantwortlichen, (2) die Erforderlichkeit der Verarbeitung für die Wahrung dieses Interesses und (3) eine Abwägung, bei der die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person nicht überwiegen dürfen. Gerade weil lit. f keinen festen Katalog liefert, ist die saubere Dokumentation dieser Abwägung in der Praxis entscheidend.
 
-In Praxis prüfen Sie stets, welche dieser Grundlagen einschlägig ist. Eine doppelte Absicherung ist dabei weder nötig noch sinnvoll: Eine einzige belastbare Rechtsgrundlage genügt vollauf. Wer mehrere Rechtsgrundlagen „auf Vorrat" benennt, signalisiert eher Unsicherheit als Sorgfalt.
+In Praxis prüfen Sie stets, welche dieser Grundlagen einschlägig ist. Eine doppelte Absicherung ist dabei weder nötig noch sinnvoll: Eine einzige belastbare Rechtsgrundlage genügt vollauf. Wer mehrere Rechtsgrundlagen „auf Vorrat“ benennt, signalisiert eher Unsicherheit als Sorgfalt.
 
 ::: {.drag-exercise}
 Das Datenschutzrecht folgt dem Grundsatz des Verbots mit *Erlaubnisvorbehalt*: Die Verarbeitung ist nur legal, wenn mindestens *eine* Bedingung aus [Art. 6 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} erfüllt ist. Unternehmen können sich dabei auf ihr *berechtigtes Interesse* stützen, sofern die Rechte der Betroffenen nicht überwiegen.
@@ -57,7 +57,7 @@ Das Datenschutzrecht folgt dem Grundsatz des Verbots mit *Erlaubnisvorbehalt*: D
 
 ## Die Einwilligung in der Praxis
 
-Die Praxis neigt dazu, die Einwilligung ([Art. 6 Abs. 1 lit. a DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}) als datenschutzrechtlichen „Freibrief" zu missverstehen. Dabei ist die Einwilligung – legaldefiniert in [Art. 4 Nr. 11 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} und ausgestaltet in [Art. 7 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} – an strenge Wirksamkeitsvoraussetzungen geknüpft. Wer versucht, Datenschutzprobleme durch pauschales Abnicken durch die Betroffenen zu „heilen", begibt sich auf juristisches Glatteis.
+Die Praxis neigt dazu, die Einwilligung ([Art. 6 Abs. 1 lit. a DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}) als datenschutzrechtlichen „Freibrief“ zu missverstehen. Dabei ist die Einwilligung, legaldefiniert in [Art. 4 Nr. 11 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} und ausgestaltet in [Art. 7 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}, an strenge Wirksamkeitsvoraussetzungen geknüpft. Wer versucht, Datenschutzprobleme durch pauschales Abnicken durch die Betroffenen zu „heilen“, begibt sich auf juristisches Glatteis.
 
 ::: {.flip-card}
 #### Einwilligung (Consent)
@@ -68,23 +68,23 @@ Ein zentraler Pfeiler für eine wirksame Einwilligung ist die **Freiwilligkeit**
 
 Darüber hinaus erfordert eine Einwilligung zwingend eine aktive Handlung (**Opt-In**). Bloßes Stillschweigen, Untätigkeit oder gar vorausgefüllte Kästchen am Ende eines Webseiten-Formulars (Opt-Out) genügen den Anforderungen der DSGVO nicht. Das Einholen einer Zustimmung zur Nutzung von Analysetools wie Webtracking verlangt dieses aktive Opt-In, bevor der erste Datenfluss ausgelöst wird.
 
-Zusätzlich müssen **Informiertheit und Bestimmtheit** gewahrt bleiben. Betroffene müssen vor der Datenerhebung in einfacher, präziser Sprache aufgeklärt werden, wer verarbeitet, was verarbeitet wird und vor allem wozu. Schließlich ist die **Widerruflichkeit** integraler Bestandteil des Konzepts: Jede rechtswirksame Einwilligung muss von der betroffenen Person jederzeit und so einfach wie die Abgabe widerrufen werden können. Dieser Widerruf wirkt jedoch nur für die Zukunft (*ex nunc*, also „von jetzt an"): Die bis zum Widerruf gestützt auf die Einwilligung erfolgte Verarbeitung bleibt rechtmäßig und wird nicht nachträglich rechtswidrig.
+Zusätzlich müssen **Informiertheit und Bestimmtheit** gewahrt bleiben. Betroffene müssen vor der Datenerhebung in einfacher, präziser Sprache aufgeklärt werden, wer verarbeitet, was verarbeitet wird und vor allem wozu. Schließlich ist die **Widerruflichkeit** integraler Bestandteil des Konzepts: Jede rechtswirksame Einwilligung muss von der betroffenen Person jederzeit und so einfach wie die Abgabe widerrufen werden können. Dieser Widerruf wirkt jedoch nur für die Zukunft (*ex nunc*, also „von jetzt an“): Die bis zum Widerruf gestützt auf die Einwilligung erfolgte Verarbeitung bleibt rechtmäßig und wird nicht nachträglich rechtswidrig.
 
 Eine eigene Schwelle gilt für **Minderjährige**: Beziehen sich Verarbeitungen auf Angebote von Diensten der Informationsgesellschaft (sprich alle internetbaiserten Dienste), die einem Kind direkt gemacht werden, ist die Einwilligung des Kindes nur rechtmäßig, wenn es das 16. Lebensjahr vollendet hat ([Art. 8 Abs. 1 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}). Andernfalls bedarf es der Einwilligung oder Zustimmung der Träger der elterlichen Verantwortung. Die Mitgliedstaaten dürfen diese Altersgrenze bis auf 13 Jahre absenken; Deutschland hat von dieser Öffnung keinen Gebrauch gemacht, sodass es bei 16 Jahren bleibt.
 
 ::: {.quick-check}
 Welches Verhalten bei einem Cookie-Banner auf einer Website ist datenschutzrechtlich **unzulässig**?
 
-- Ein Banner mit einem Button für „Alles akzeptieren" und einem gleichrangigen Button für „Alles ablehnen".
-- **Ein Banner, das ein vorausgefülltes Kästchen zur Zustimmung enthält oder nur einen „Alles akzeptieren"-Button anbietet, ohne eine einfache Ablehnung auf gleicher Ebene zu ermöglichen.**
+- Ein Banner mit einem Button für „Alles akzeptieren“ und einem gleichrangigen Button für „Alles ablehnen“.
+- **Ein Banner, das ein vorausgefülltes Kästchen zur Zustimmung enthält oder nur einen „Alles akzeptieren“-Button anbietet, ohne eine einfache Ablehnung auf gleicher Ebene zu ermöglichen.**
 - Ein Banner, das den Nutzer detailliert informiert und ihn aktiv seine Präferenzen auswählen lässt (Opt-In).
 :::
 
-## Höchste Warnstufe: Besonders sensible Daten
+## Besonders sensible Daten auf höchster Warnstufe
 
 Bestimmte Informationen im Leben eines Menschen sind von Natur aus derart sensibel, dass die herkömmlichen Rechtsgrundlagen des [Art. 6 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} und die sonstigen allgemeinen Pflichten der DSGVO schlicht nicht ausreichen, um sie angemessen zu schützen. [Art. 9 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} spannt daher einen deutlich rigideren Schutzschild auf.
 
-Das Konzept unterscheidet zwischen „gewöhnlichen" personenbezogenen Daten und solchen besonderer Kategorien. Die Norm statuiert für die Verarbeitung dieser sensiblen Daten in Absatz 1 erst einmal ein rigoroses und prinzipielles Verbot.
+Das Konzept unterscheidet zwischen „gewöhnlichen“ personenbezogenen Daten und solchen besonderer Kategorien. Die Norm statuiert für die Verarbeitung dieser sensiblen Daten in Absatz 1 erst einmal ein rigoroses und prinzipielles Verbot.
 
 ::: {.details}
 #### Besondere Kategorien personenbezogener Daten (Art. 9 Abs. 1 DSGVO)
@@ -96,7 +96,7 @@ Zu diesen besonders geschützten Informationen zählen Daten, aus denen Folgende
 - Gesundheitsdaten sowie Daten zum Sexualleben oder zur sexuellen Orientierung
 :::
 
-Natürlich sind auch hier Ausnahmen vom Verbot der Verarbeitung vorgesehen – sie sind jedoch deutlich enger gefasst. Eine Verarbeitung ist nur ausnahmsweise dann gestattet, wenn ganz spezifische, noch strengere Erlaubnistatbestände aus [Art. 9 Abs. 2 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} herangezogen werden können. Dies wäre beispielsweise eine **ausdrückliche**, isolierte Einwilligung exakt für diese extrem sensiblen Daten oder die Erfüllung zwingender Vorschriften aus dem Arbeits- und Sozialrecht. Der gesteigerte Maßstab – „ausdrücklich" statt nur „unmissverständlich" – verdeutlicht: Wer sensible Daten auf eine Einwilligung stützen will, muss diese gesondert, klar abgegrenzt und gezielt für genau diese Kategorie einholen.
+Natürlich sind auch hier Ausnahmen vom Verbot der Verarbeitung vorgesehen; sie sind jedoch deutlich enger gefasst. Eine Verarbeitung ist nur ausnahmsweise dann gestattet, wenn ganz spezifische, noch strengere Erlaubnistatbestände aus [Art. 9 Abs. 2 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} herangezogen werden können. Dies wäre beispielsweise eine **ausdrückliche**, isolierte Einwilligung exakt für diese extrem sensiblen Daten oder die Erfüllung zwingender Vorschriften aus dem Arbeits- und Sozialrecht. Der gesteigerte Maßstab („ausdrücklich“ statt nur „unmissverständlich“) verdeutlicht: Wer sensible Daten auf eine Einwilligung stützen will, muss diese gesondert, klar abgegrenzt und gezielt für genau diese Kategorie einholen.
 
 Wenden Sie diese Systematik praktisch an und klassifizieren Sie die typischen Datenarten in die jeweilige rechtliche Schutzkategorie:
 
@@ -108,7 +108,7 @@ Wie sich diese Unterscheidung in der unternehmerischen Praxis äußern kann, zei
 
 ::: {.case-study}
 #### Fall: Das Tattoo-Studio und der Instagram-Account
-Ein angesagtes Tattoo-Studio lässt seine Kunden vor dem Stechen des Tattoos routinemäßig ein Formular unterschreiben. Inmitten eines langen Fließtextes auf Seite zwei verbirgt sich folgende Klausel: „Wir erheben mit dieser Erklärung Gesundheitsdaten von Ihnen (z. B. zu Infektionen), um das Tattoo sicher stechen zu können. Zudem fertigen wir im Anschluss Vorher-Nachher-Fotos des Werks für unseren Instagram-Kanal an."
+Ein angesagtes Tattoo-Studio lässt seine Kunden vor dem Stechen des Tattoos routinemäßig ein Formular unterschreiben. Inmitten eines langen Fließtextes auf Seite zwei verbirgt sich folgende Klausel: „Wir erheben mit dieser Erklärung Gesundheitsdaten von Ihnen (z. B. zu Infektionen), um das Tattoo sicher stechen zu können. Zudem fertigen wir im Anschluss Vorher-Nachher-Fotos des Werks für unseren Instagram-Kanal an.“
 
 ::: {.solution}
 **Lösung:** Hier offenbaren sich erhebliche rechtliche Mängel. Die ausdrückliche Abfrage von Gesundheitszuständen (z. B. Infektionen) erhebt Gesundheitsdaten und fällt damit in den Anwendungsbereich von [Art. 9 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}.
@@ -174,7 +174,7 @@ Zudem ist das Motiv für das Auskunftsersuchen in der Regel unbedeutend.
 
 ::: {.flip-card}
 #### Fehlendes Rechtsschutzbedürfnis beim Auskunftsanspruch?
-Das Auskunftsrecht setzt kein spezifisches „Rechtsschutzbedürfnis" voraus. Selbst wenn das primäre Ziel des Betroffenen völlig datenschutzfremd ist (z. B. Vorbereitung einer arbeitsrechtlichen Klage oder Überprüfung von Provisionsabrechnungen), steht dies dem Anspruch nach herrschender Rechtsprechung grundsätzlich nicht entgegen. 
+Das Auskunftsrecht setzt kein spezifisches „Rechtsschutzbedürfnis“ voraus. Selbst wenn das primäre Ziel des Betroffenen völlig datenschutzfremd ist (z. B. Vorbereitung einer arbeitsrechtlichen Klage oder Überprüfung von Provisionsabrechnungen), steht dies dem Anspruch nach herrschender Rechtsprechung grundsätzlich nicht entgegen. 
 :::
 
 Darüber hinaus sichert [Art. 15 Abs. 3 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} das Recht auf eine **kostenlose Erstkopie** der verarbeiteten personenbezogenen Daten. Der BGH hat auch hier klargestellt, dass dies durchaus die Herausgabe tatsächlicher Dokumentenkopien (wie von Briefen oder E-Mails) bedeuten kann, sofern dies zum Verständnis der Daten erforderlich ist.
@@ -186,7 +186,7 @@ Diese weitreichenden Ansprüche finden ihre Grenze erst dort, wo sie mit den Rec
 Ein Jura-Student ist bei der staatlichen Pflichtfachprüfung in Nordrhein-Westfalen durchgefallen. Um Ansatzpunkte für eine Prüfungsanfechtung zu finden, fordert er vom zuständigen Prüfungsamt unter Berufung auf [Art. 15 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} die unentgeltliche Übersendung einer Kopie seiner gesamten Klausuren (stolze 348 Seiten) inklusive der handschriftlichen Gutachten und Randbemerkungen der Prüfer. Das Amt weigert sich aufgrund des Umfangs und der Rechte der Prüfer.
 
 ::: {.solution}
-**Lösung:** Der Anspruch nach [Art. 15 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} besteht tatsächlich vollumfänglich. Die schriftlichen Aufsichtsarbeiten des Studenten sowie die darauf bezogenen Prüfungsgutachten der Korrektoren stellen personenbezogene Daten dar. Auch die Rechte Dritter ([Art. 15 Abs. 4 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}) – hier die der Prüfer – stehen der Herausgabe nicht entgegen, da Prüfer ihre Korrekturanmerkungen ohnehin in dem Bewusstsein anfertigen, dass sie dem Prüfling im Rahmen der Akteneinsicht zugänglich gemacht werden müssen. Das Bundesverwaltungsgericht gab dem klagenden Studenten in letzter Instanz Recht. Das Datenschutzrecht hebelt hier faktisch die strengen Regularien des Verwaltungsverfahrensrechts aus.
+**Lösung:** Der Anspruch nach [Art. 15 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} besteht tatsächlich vollumfänglich. Die schriftlichen Aufsichtsarbeiten des Studenten sowie die darauf bezogenen Prüfungsgutachten der Korrektoren stellen personenbezogene Daten dar. Auch die Rechte Dritter ([Art. 15 Abs. 4 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}), hier die der Prüfer, stehen der Herausgabe nicht entgegen, da Prüfer ihre Korrekturanmerkungen ohnehin in dem Bewusstsein anfertigen, dass sie dem Prüfling im Rahmen der Akteneinsicht zugänglich gemacht werden müssen. Das Bundesverwaltungsgericht gab dem klagenden Studenten in letzter Instanz Recht. Das Datenschutzrecht hebelt hier faktisch die strengen Regularien des Verwaltungsverfahrensrechts aus.
 
 >BVerwG, Urt. v. 30.11.2022, 6 C 10.21 - Auskunft über Prüfungsunterlagen, Art. 15 DSGVO
 :::
@@ -204,7 +204,7 @@ Welche Aussage zum Auskunftsrecht nach [Art. 15 DSGVO](https://eur-lex.europa.eu
 
 ### Berichtigung, Löschung und die übrigen Rechte (Art. 16–21 DSGVO)
 
-Auf den durch die Auskunft geöffneten Zugang bauen die weiteren Rechte auf. Ist ein Datensatz inkorrekt, greift [Art. 16 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} mit dem Recht auf unverzügliche **Berichtigung**. Sind die Zwecke der Verarbeitung erfüllt oder widerruft die Person ihre zuvor erteilte Einwilligung, aktiviert sich das „Recht auf Vergessenwerden" (**Recht auf Löschung**) nach [Art. 17 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}. Die Idee, dass digitale Daten nicht ewig fortbestehen sollten, hatte der Jurist Viktor Mayer-Schönberger als „Tugend des Vergessens" beschrieben. Die DSGVO hat dieses Anliegen in einen durchsetzbaren Anspruch übersetzt.
+Auf den durch die Auskunft geöffneten Zugang bauen die weiteren Rechte auf. Ist ein Datensatz inkorrekt, greift [Art. 16 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} mit dem Recht auf unverzügliche **Berichtigung**. Sind die Zwecke der Verarbeitung erfüllt oder widerruft die Person ihre zuvor erteilte Einwilligung, aktiviert sich das „Recht auf Vergessenwerden“ (**Recht auf Löschung**) nach [Art. 17 DSGVO](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"}. Die Idee, dass digitale Daten nicht ewig fortbestehen sollten, hatte der Jurist Viktor Mayer-Schönberger als „Tugend des Vergessens“ beschrieben. Die DSGVO hat dieses Anliegen in einen durchsetzbaren Anspruch übersetzt.
 
 Die [Artikel 18 und 20](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679){target="_blank"} flankieren dieses Arsenal mit dem Recht auf **Einschränkung der Verarbeitung** sowie dem Recht auf **Datenübertragbarkeit**, welches der drohenden Monopolisierung von Nutzerdaten durch große Plattformen entgegenwirken soll. In der Praxis ist das Übertragbarkeitsrecht allerdings bislang kaum wirksam geworden.
 
