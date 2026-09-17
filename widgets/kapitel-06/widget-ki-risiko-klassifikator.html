@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KI-Risiko-Klassifikator nach der KI-VO</title>
+<style>
+  body{margin:0;padding:20px;font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#333;box-sizing:border-box;}
+  .container{max-width:820px;margin:0 auto;}
+  .lead{font-size:.95rem;margin:0 0 14px;color:#555;}
+  .cases{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+  .cases button{background:#eee;color:#333;border:none;padding:9px 14px;border-radius:6px;cursor:pointer;font-weight:600;font-size:.85rem;transition:.15s;text-align:left;}
+  .cases button:hover{background:#e0e0e0;}
+  .cases button.active{background:#ff6a00;color:#fff;}
+  .result{border:1px solid #e3e3e3;border-radius:8px;background:#fff;overflow:hidden;opacity:0;transition:opacity .2s;}
+  .result.show{opacity:1;}
+  .banner{padding:12px 16px;color:#fff;font-weight:700;font-size:1.05rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;}
+  .banner .lvl{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;font-weight:600;opacity:.9;}
+  .lvl-verboten{background:#b21f1f;}
+  .lvl-hoch{background:#d35400;}
+  .lvl-begrenzt{background:#b8860b;}
+  .lvl-minimal{background:#1a8a3c;}
+  .body{padding:14px 16px;}
+  .casename{font-size:.95rem;font-weight:600;margin:0 0 10px;color:#222;}
+  .body h4{margin:12px 0 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:#999;}
+  .body ul{margin:0;padding-left:18px;}
+  .body li{font-size:.85rem;line-height:1.5;margin-bottom:3px;color:#444;}
+  .norm{display:inline-block;margin-top:10px;font-size:.78rem;color:#ff6a00;font-weight:600;background:#fff7f0;border:1px solid #ffd9b8;border-radius:4px;padding:3px 8px;}
+  .pyramid{display:flex;gap:6px;margin:0 0 16px;}
+  .pyramid span{flex:1;text-align:center;font-size:.68rem;font-weight:600;color:#fff;padding:5px 2px;border-radius:4px;opacity:.45;transition:.15s;}
+  .pyramid span.on{opacity:1;}
+</style>
+</head>
+<body>
+<div class="container">
+  <p class="lead">Wählen Sie einen KI-Anwendungsfall — der Klassifikator ordnet ihn der Risikostufe der KI-Verordnung zu und nennt die zentralen Pflichten und Folgen.</p>
+  <div class="pyramid">
+    <span class="lvl-verboten" data-l="verboten">Verboten</span>
+    <span class="lvl-hoch" data-l="hoch">Hochrisiko</span>
+    <span class="lvl-begrenzt" data-l="begrenzt">Begrenzt</span>
+    <span class="lvl-minimal" data-l="minimal">Minimal</span>
+  </div>
+  <div class="cases" id="cases"></div>
+  <div class="result" id="result">
+    <div class="banner" id="banner"><span id="bannertext"></span><span class="lvl" id="bannerlvl"></span></div>
+    <div class="body">
+      <p class="casename" id="casename"></p>
+      <h4>Zentrale Pflichten / Folgen</h4>
+      <ul id="duties"></ul>
+      <span class="norm" id="norm"></span>
+    </div>
+  </div>
+</div>
+<script>
+const C=[
+ {label:"Social Scoring durch Behörden",
+  name:"Eine Behörde bewertet Bürgerinnen und Bürger anhand ihres Verhaltens über viele Lebensbereiche hinweg und knüpft daran Vor- oder Nachteile.",
+  level:"verboten",banner:"Verbotene Praktik",
+  duties:["Inverkehrbringen, Inbetriebnahme und Verwendung sind untersagt.","Kein Genehmigungs- oder Ausnahmeweg.","Bußgeld bis 35 Mio. € oder 7 % des weltweiten Jahresumsatzes."],
+  norm:"Art. 5 Abs. 1 lit. c KI-VO"},
+ {label:"Biometrische Echtzeit-Fernidentifizierung",
+  name:"Live-Gesichtserkennung im öffentlichen Raum zur Strafverfolgung.",
+  level:"verboten",banner:"Grundsätzlich verboten",
+  duties:["Verboten in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken.","Nur enge Ausnahmen unter Genehmigungsvorbehalt (z. B. Suche nach Vermissten, Abwehr terroristischer Bedrohung).","Außerhalb der Ausnahmen als Hochrisiko-System reguliert."],
+  norm:"Art. 5 Abs. 1 lit. h, Abs. 2–5 KI-VO"},
+ {label:"Emotionserkennung am Arbeitsplatz",
+  name:"Software analysiert die Emotionen von Beschäftigten während der Arbeit.",
+  level:"verboten",banner:"Verbotene Praktik",
+  duties:["Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen ist untersagt.","Schmale Ausnahmen nur für medizinische oder Sicherheitszwecke.","Bußgeld bis 35 Mio. € oder 7 %."],
+  norm:"Art. 5 Abs. 1 lit. f KI-VO"},
+ {label:"CV-Sortierung im Recruiting",
+  name:"Eine KI sortiert und bewertet Bewerbungen für ein Einstellungsverfahren vor.",
+  level:"hoch",banner:"Hochrisiko-KI-System",
+  duties:["Verwendungszweck in Anhang III (Beschäftigung) gelistet.","Pflichten u. a.: Risikomanagement (Art. 9), Daten-Governance (Art. 10), technische Dokumentation, menschliche Aufsicht (Art. 14).","Konformitätsbewertung + CE-Kennzeichnung + EU-Datenbank vor Markteinführung.","Betreiber: Betrieb nach Anleitung, Protokolle, ggf. Grundrechte-Folgenabschätzung."],
+  norm:"Art. 6 Abs. 2 i. V. m. Anhang III, Art. 8–15 KI-VO"},
+ {label:"Kreditwürdigkeitsprüfung",
+  name:"Ein Scoring-System entscheidet mit über die Vergabe eines Kredits an Verbraucher.",
+  level:"hoch",banner:"Hochrisiko-KI-System",
+  duties:["Wesentliche private Dienstleistung in Anhang III.","Voller Pflichtenkatalog der Art. 8–15 (Risikomanagement, Daten-Governance, Transparenz, Aufsicht).","Korrektiv Art. 6 Abs. 3: nur dann nicht hochriskant, wenn das System die Entscheidung nicht wesentlich beeinflusst — Bewertung ist zu dokumentieren."],
+  norm:"Art. 6 Abs. 2, Anhang III Nr. 5 KI-VO"},
+ {label:"Chatbot im Kundenservice",
+  name:"Ein KI-Chatbot beantwortet Kundenanfragen im Dialog.",
+  level:"begrenzt",banner:"Begrenztes Risiko",
+  duties:["Transparenzpflicht: Nutzer müssen erkennen, dass sie mit einer KI interagieren.","Synthetische Inhalte sind maschinenlesbar zu kennzeichnen (Watermarking).","Keine Konformitätsbewertung, aber Offenlegungspflichten."],
+  norm:"Art. 50 Abs. 1, 2 KI-VO"},
+ {label:"Deepfake-Generator",
+  name:"Ein System erzeugt täuschend echte, aber künstliche Bild- oder Videoinhalte.",
+  level:"begrenzt",banner:"Begrenztes Risiko",
+  duties:["Betreiber müssen Deepfakes als künstlich erzeugt kennzeichnen (Labeling).","Bei Texten von öffentlichem Interesse: Offenlegung der KI-Erstellung.","Transparenz statt Verbot — die Inhalte selbst bleiben zulässig."],
+  norm:"Art. 50 Abs. 4 KI-VO"},
+ {label:"Spamfilter",
+  name:"Ein KI-gestützter Filter sortiert unerwünschte E-Mails aus.",
+  level:"minimal",banner:"Minimales Risiko",
+  duties:["Keine besonderen Pflichten aus der KI-VO.","Freiwillige Verhaltenskodizes möglich.","Querschnittspflicht: ausreichende KI-Kompetenz des Personals (Art. 4)."],
+  norm:"kein gesonderter Pflichtenkatalog · Art. 4 KI-VO"}
+];
+const cc=document.getElementById('cases');
+C.forEach((c,i)=>{const b=document.createElement('button');b.textContent=c.label;b.onclick=()=>pick(i);cc.appendChild(b);});
+const pyr=[...document.querySelectorAll('.pyramid span')];
+function pick(i){
+ [...cc.children].forEach((b,j)=>b.classList.toggle('active',j===i));
+ const c=C[i];
+ const r=document.getElementById('result');r.classList.add('show');
+ const banner=document.getElementById('banner');
+ banner.className='banner lvl-'+c.level;
+ document.getElementById('bannertext').textContent=c.banner;
+ document.getElementById('bannerlvl').textContent=c.level;
+ document.getElementById('casename').textContent=c.name;
+ const ul=document.getElementById('duties');ul.innerHTML='';
+ c.duties.forEach(d=>{const li=document.createElement('li');li.textContent=d;ul.appendChild(li);});
+ document.getElementById('norm').textContent=c.norm;
+ pyr.forEach(s=>s.classList.toggle('on',s.dataset.l===c.level));
+}
+pick(0);
+</script>
+</body>
+</html>
